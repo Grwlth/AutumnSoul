@@ -1,0 +1,1471 @@
+fileFormatVersion: 2
+guid: e5476342904eba846a3a5508eb9b01d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7995511483403353577
+    second: suze (1)_0
+  - first:
+      213: 6372635206514633226
+    second: suze (1)_1
+  - first:
+      213: -8680323055351068487
+    second: suze (1)_2
+  - first:
+      213: 5149048983531164914
+    second: suze (1)_3
+  - first:
+      213: 1203294671744643670
+    second: suze (1)_4
+  - first:
+      213: 8240096565880069622
+    second: suze (1)_5
+  - first:
+      213: -7830178431998268763
+    second: suze (1)_6
+  - first:
+      213: -5440198408131691368
+    second: suze (1)_7
+  - first:
+      213: -1180755855404613261
+    second: suze (1)_8
+  - first:
+      213: 2709557532753255384
+    second: suze (1)_9
+  - first:
+      213: -6386945663859453772
+    second: suze (1)_10
+  - first:
+      213: -4647099123343135256
+    second: suze (1)_11
+  - first:
+      213: 2505010664970746309
+    second: suze (1)_12
+  - first:
+      213: 681184003349660014
+    second: suze (1)_13
+  - first:
+      213: -1371007061211617305
+    second: suze (1)_14
+  - first:
+      213: 4359400976695204372
+    second: suze (1)_15
+  - first:
+      213: -7276720832418021932
+    second: suze (1)_16
+  - first:
+      213: -5180125849889490341
+    second: suze (1)_17
+  - first:
+      213: 8491925166286168243
+    second: suze (1)_18
+  - first:
+      213: 6655093421487395351
+    second: suze (1)_19
+  - first:
+      213: 90307510570777948
+    second: suze (1)_20
+  - first:
+      213: -8410651759643921722
+    second: suze (1)_21
+  - first:
+      213: 1712718870710319496
+    second: suze (1)_22
+  - first:
+      213: -1154859425384081618
+    second: suze (1)_23
+  - first:
+      213: -1830549796067132237
+    second: suze (1)_24
+  - first:
+      213: 8681582790267005769
+    second: suze (1)_25
+  - first:
+      213: -7769941020164186031
+    second: suze (1)_26
+  - first:
+      213: -2089036592833759753
+    second: suze (1)_27
+  - first:
+      213: -2435818390226967379
+    second: suze (1)_28
+  - first:
+      213: 8208725352230935383
+    second: suze (1)_29
+  - first:
+      213: -6219260680388645833
+    second: suze (1)_30
+  - first:
+      213: -8730836430745701989
+    second: suze (1)_31
+  - first:
+      213: 7649646155100996578
+    second: suze (1)_32
+  - first:
+      213: -4000389449590611246
+    second: suze (1)_33
+  - first:
+      213: -6154147318788900828
+    second: suze (1)_34
+  - first:
+      213: 9104848911227586629
+    second: suze (1)_35
+  - first:
+      213: -6622929714822170943
+    second: suze (1)_36
+  - first:
+      213: -6347993339591159901
+    second: suze (1)_37
+  - first:
+      213: -80817594023546755
+    second: suze (1)_38
+  - first:
+      213: 1385592455958618190
+    second: suze (1)_39
+  - first:
+      213: -8237788635870641422
+    second: suze (1)_40
+  - first:
+      213: -8707771503233239637
+    second: suze (1)_41
+  - first:
+      213: 8861321988417959481
+    second: suze (1)_42
+  - first:
+      213: -6391894542072116583
+    second: suze (1)_43
+  - first:
+      213: -5326614612317618454
+    second: suze (1)_44
+  - first:
+      213: -3118062802706190518
+    second: suze (1)_45
+  - first:
+      213: -1920025356529889528
+    second: suze (1)_46
+  - first:
+      213: 3359440765120968346
+    second: suze (1)_47
+  - first:
+      213: -999463335620502490
+    second: suze (1)_48
+  - first:
+      213: 2890184793965572034
+    second: suze (1)_49
+  - first:
+      213: 2680041907103631803
+    second: suze (1)_50
+  - first:
+      213: -9071706329990109355
+    second: suze (1)_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: suze (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed30d50553c5fe60800000000000000
+      internalID: 7995511483403353577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 154
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ae377e4f5207850800000000000000
+      internalID: 6372635206514633226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b88a26eb2c498780800000000000000
+      internalID: -8680323055351068487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 154
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4167a05c8157740800000000000000
+      internalID: 5149048983531164914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652b57de026f2b010800000000000000
+      internalID: 1203294671744643670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 154
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd92343b24ba5270800000000000000
+      internalID: 8240096565880069622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa61d0c33e955390800000000000000
+      internalID: -7830178431998268763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 154
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3aa70f588084b0800000000000000
+      internalID: -5440198408131691368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37145203ecc1d9fe0800000000000000
+      internalID: -1180755855404613261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbdd3e58384a9520800000000000000
+      internalID: 2709557532753255384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09fe912c20d57a0800000000000000
+      internalID: -6386945663859453772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed6a1df7ff228fb0800000000000000
+      internalID: -4647099123343135256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9752c7de593c220800000000000000
+      internalID: 2505010664970746309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_13
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61c552fd3d047900800000000000000
+      internalID: 681184003349660014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7edeb775439fce0800000000000000
+      internalID: -1371007061211617305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 154
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a98695714bf7c30800000000000000
+      internalID: 4359400976695204372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddf906e4f4e30b90800000000000000
+      internalID: -7276720832418021932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 104
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ab4892cfe7c18b0800000000000000
+      internalID: -5180125849889490341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 103
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0efa352f069d570800000000000000
+      internalID: 8491925166286168243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 103
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7129bc6e434ab5c50800000000000000
+      internalID: 6655093421487395351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 103
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dfe10d336d04100800000000000000
+      internalID: 90307510570777948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 103
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2f8e049cc574b80800000000000000
+      internalID: -8410651759643921722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_22
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 104
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889fbc01dbcc4c710800000000000000
+      internalID: 1712718870710319496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 104
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e275878a87d19ffe0800000000000000
+      internalID: -1154859425384081618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc31cdb8a49896e0800000000000000
+      internalID: -1830549796067132237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_25
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b620efc8d2b7870800000000000000
+      internalID: 8681582790267005769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150a06f1fcf9b2490800000000000000
+      internalID: -7769941020164186031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_27
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5f95979404203e0800000000000000
+      internalID: -2089036592833759753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_28
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da46821641c323ed0800000000000000
+      internalID: -2435818390226967379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_29
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bd77657304be170800000000000000
+      internalID: 8208725352230935383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_30
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c61ebbc5fb0b9a0800000000000000
+      internalID: -6219260680388645833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_31
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 103
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91fc513686d5d680800000000000000
+      internalID: -8730836430745701989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e34a3406a0092a60800000000000000
+      internalID: 7649646155100996578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_33
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d26ee59df2cb78c0800000000000000
+      internalID: -4000389449590611246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4283a20ae93189aa0800000000000000
+      internalID: -6154147318788900828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_35
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548825f58dbea5e70800000000000000
+      internalID: 9104848911227586629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_36
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c635af9380a614a0800000000000000
+      internalID: -6622929714822170943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af8f15d0b567e7a0800000000000000
+      internalID: -6347993339591159901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_38
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70ff9093d0e0eef0800000000000000
+      internalID: -80817594023546755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_39
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 52
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40efdc5ffc9a3310800000000000000
+      internalID: 1385592455958618190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_40
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f24e20a1ee7dad80800000000000000
+      internalID: -8237788635870641422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5738c14f7c72780800000000000000
+      internalID: -8707771503233239637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_42
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936b200366db9fa70800000000000000
+      internalID: 8861321988417959481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_43
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a880a97cd6b47a0800000000000000
+      internalID: -6391894542072116583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_44
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee37615b301416b0800000000000000
+      internalID: -5326614612317618454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_45
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fa651b66a6ab4d0800000000000000
+      internalID: -3118062802706190518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_46
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f0b486c13ba55e0800000000000000
+      internalID: -1920025356529889528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_47
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 52
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a967009a3912f9e20800000000000000
+      internalID: 3359440765120968346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c105244613122f0800000000000000
+      internalID: -999463335620502490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfad8bd1cffb1820800000000000000
+      internalID: 2890184793965572034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb982104aeb613520800000000000000
+      internalID: 2680041907103631803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suze (1)_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557e6462823da1280800000000000000
+      internalID: -9071706329990109355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7a6c3a484ff685443aaa1115a2a668e3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":29.0,"y":51.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      suze (1)_0: 7995511483403353577
+      suze (1)_1: 6372635206514633226
+      suze (1)_10: -6386945663859453772
+      suze (1)_11: -4647099123343135256
+      suze (1)_12: 2505010664970746309
+      suze (1)_13: 681184003349660014
+      suze (1)_14: -1371007061211617305
+      suze (1)_15: 4359400976695204372
+      suze (1)_16: -7276720832418021932
+      suze (1)_17: -5180125849889490341
+      suze (1)_18: 8491925166286168243
+      suze (1)_19: 6655093421487395351
+      suze (1)_2: -8680323055351068487
+      suze (1)_20: 90307510570777948
+      suze (1)_21: -8410651759643921722
+      suze (1)_22: 1712718870710319496
+      suze (1)_23: -1154859425384081618
+      suze (1)_24: -1830549796067132237
+      suze (1)_25: 8681582790267005769
+      suze (1)_26: -7769941020164186031
+      suze (1)_27: -2089036592833759753
+      suze (1)_28: -2435818390226967379
+      suze (1)_29: 8208725352230935383
+      suze (1)_3: 5149048983531164914
+      suze (1)_30: -6219260680388645833
+      suze (1)_31: -8730836430745701989
+      suze (1)_32: 7649646155100996578
+      suze (1)_33: -4000389449590611246
+      suze (1)_34: -6154147318788900828
+      suze (1)_35: 9104848911227586629
+      suze (1)_36: -6622929714822170943
+      suze (1)_37: -6347993339591159901
+      suze (1)_38: -80817594023546755
+      suze (1)_39: 1385592455958618190
+      suze (1)_4: 1203294671744643670
+      suze (1)_40: -8237788635870641422
+      suze (1)_41: -8707771503233239637
+      suze (1)_42: 8861321988417959481
+      suze (1)_43: -6391894542072116583
+      suze (1)_44: -5326614612317618454
+      suze (1)_45: -3118062802706190518
+      suze (1)_46: -1920025356529889528
+      suze (1)_47: 3359440765120968346
+      suze (1)_48: -999463335620502490
+      suze (1)_49: 2890184793965572034
+      suze (1)_5: 8240096565880069622
+      suze (1)_50: 2680041907103631803
+      suze (1)_51: -9071706329990109355
+      suze (1)_6: -7830178431998268763
+      suze (1)_7: -5440198408131691368
+      suze (1)_8: -1180755855404613261
+      suze (1)_9: 2709557532753255384
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
