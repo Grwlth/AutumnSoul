@@ -2,16 +2,58 @@ using UnityEngine;
 
 public class CharacterSwitcher : MonoBehaviour
 {
-    public GameObject[] characters;
+    [Header("Characters")]
+    public PlayableCharacter shadow;
+    public PlayableCharacter cat;
+    public PlayableCharacter crow;
 
-    private int currentCharacterIndex;
+    [Header("Mana")]
+    public int manaCost = 3;
+
+    private PlayableCharacter[] characters;
+    private int currentCharacterIndex = 0;
+
+    private void Awake()
+    {
+        characters = new PlayableCharacter[]
+        {
+            shadow,
+            cat,
+            crow
+        };
+
+        // Always start as Shadow
+        if (shadow != null)
+            shadow.gameObject.SetActive(true);
+
+        if (cat != null)
+            cat.gameObject.SetActive(false);
+
+        if (crow != null)
+            crow.gameObject.SetActive(false);
+    }
 
     private void Start()
-    {
-        currentCharacterIndex = Random.Range(0, characters.Length);
+{
+    currentCharacterIndex = 0;
 
-        ActivateCharacter(currentCharacterIndex);
+    Debug.Log("Starting character: Shadow");
+
+    if (shadow == null || cat == null || crow == null)
+    {
+        Debug.LogError(
+            "CharacterSwitcher: Shadow, Cat or Crow is not assigned in the Inspector!"
+        );
+
+        return;
     }
+
+    Debug.Log(
+        "Shadow active: " + shadow.gameObject.activeSelf +
+        " | Cat active: " + cat.gameObject.activeSelf +
+        " | Crow active: " + crow.gameObject.activeSelf
+    );
+}
 
     private void Update()
     {
@@ -23,11 +65,34 @@ public class CharacterSwitcher : MonoBehaviour
 
     private void SwitchCharacter()
     {
-        Vector3 currentPosition =
-            characters[currentCharacterIndex].transform.position;
+        if (characters == null || characters.Length != 3)
+            return;
 
-        characters[currentCharacterIndex].SetActive(false);
+        PlayableCharacter current = characters[currentCharacterIndex];
 
+        if (current == null)
+        {
+            Debug.LogError("Current character is missing!");
+            return;
+        }
+
+        // Mana check
+        if (GameManager.Instance != null)
+        {
+            if (!GameManager.Instance.TrySpendMana(manaCost))
+            {
+                Debug.Log("Not enough Mana!");
+                return;
+            }
+        }
+
+        Vector3 currentPosition = current.transform.position;
+        int currentHp = current.GetHp();
+
+        // Turn current character off
+        current.gameObject.SetActive(false);
+
+        // Next character
         currentCharacterIndex++;
 
         if (currentCharacterIndex >= characters.Length)
@@ -35,17 +100,23 @@ public class CharacterSwitcher : MonoBehaviour
             currentCharacterIndex = 0;
         }
 
-        characters[currentCharacterIndex].transform.position =
-            currentPosition;
+        PlayableCharacter next = characters[currentCharacterIndex];
 
-        characters[currentCharacterIndex].SetActive(true);
-    }
-
-    private void ActivateCharacter(int index)
-    {
-        for (int i = 0; i < characters.Length; i++)
+        if (next == null)
         {
-            characters[i].SetActive(i == index);
+            Debug.LogError("Next character is missing!");
+            return;
         }
+
+        // Move new form to same position
+        next.transform.position = currentPosition;
+
+        // Preserve HP
+        next.SetHp(currentHp);
+
+        // Turn new form on
+        next.gameObject.SetActive(true);
+
+        Debug.Log("Switched to: " + next.gameObject.name);
     }
 }
