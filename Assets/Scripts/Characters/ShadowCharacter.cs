@@ -10,21 +10,25 @@ public class ShadowCharacter : PlayableCharacter
     public override void SpecialAbility()
     {
         if (attackPoint == null)
+        {
             return;
+        }
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            attackPoint.position,
-            attackRange,
-            trapLayer
-        );
+        Collider2D[] hits =
+            Physics2D.OverlapCircleAll(
+                attackPoint.position,
+                attackRange,
+                trapLayer
+            );
 
         foreach (Collider2D hit in hits)
         {
-            IDamagable target = hit.GetComponent<IDamagable>();
+            IShadowBreakable breakable =
+                hit.GetComponent<IShadowBreakable>();
 
-            if (target != null)
+            if (breakable != null)
             {
-                ApplyDamage(target);
+                breakable.BreakWithShadow();
             }
         }
     }
@@ -32,7 +36,9 @@ public class ShadowCharacter : PlayableCharacter
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
+        {
             return;
+        }
 
         Gizmos.DrawWireSphere(
             attackPoint.position,

@@ -43,29 +43,52 @@ public class GameManager : MonoBehaviour
         currentMana = maxMana;
         collectedIngredients = 0;
 
-        CountIngredients();
+        CountRequiredIngredients();
 
         if (winPanel != null)
+        {
             winPanel.SetActive(false);
+        }
 
         if (losePanel != null)
+        {
             losePanel.SetActive(false);
+        }
 
         UpdateUI();
 
-        Debug.Log("Ingredients needed: " + totalIngredients);
-        Debug.Log("Mana: " + currentMana + "/" + maxMana);
+        Debug.Log(
+            "Ingredients needed: " +
+            totalIngredients
+        );
+
+        Debug.Log(
+            "Mana: " +
+            currentMana +
+            "/" +
+            maxMana
+        );
     }
 
-    private void CountIngredients()
+    private void CountRequiredIngredients()
     {
-        IngredientCollectible[] ingredients =
+        // Every trap spawn point eventually produces one ingredient
+        TrapSpawner[] trapSpawners =
+            FindObjectsByType<TrapSpawner>(
+                FindObjectsInactive.Exclude,
+                FindObjectsSortMode.None
+            );
+
+        totalIngredients = trapSpawners.Length;
+
+        // Also count any ingredients that already exist in the level
+        IngredientCollectible[] existingIngredients =
             FindObjectsByType<IngredientCollectible>(
                 FindObjectsInactive.Exclude,
                 FindObjectsSortMode.None
             );
 
-        totalIngredients = ingredients.Length;
+        totalIngredients += existingIngredients.Length;
     }
 
     public bool TrySpendMana(int amount)
@@ -95,7 +118,9 @@ public class GameManager : MonoBehaviour
         currentMana += amount;
 
         if (currentMana > maxMana)
+        {
             currentMana = maxMana;
+        }
 
         UpdateUI();
 
@@ -151,14 +176,18 @@ public class GameManager : MonoBehaviour
     public void WinGame()
     {
         if (gameEnded)
+        {
             return;
+        }
 
         gameEnded = true;
 
         Debug.Log("YOU WIN!");
 
         if (winPanel != null)
+        {
             winPanel.SetActive(true);
+        }
 
         Time.timeScale = 0f;
     }
@@ -166,14 +195,18 @@ public class GameManager : MonoBehaviour
     public void PlayerDied()
     {
         if (gameEnded)
+        {
             return;
+        }
 
         gameEnded = true;
 
         Debug.Log("YOU LOST!");
 
         if (losePanel != null)
+        {
             losePanel.SetActive(true);
+        }
 
         Time.timeScale = 0f;
     }

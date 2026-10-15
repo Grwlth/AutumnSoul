@@ -154,3 +154,4 @@ MonoBehaviour:
   maxHp: 50
   currentHp: 0
   damage: 20
+  collectiblePrefab: {fileID: 6775790126066763698, guid: cca138b0c223cef47b37f13cb2770bda, type: 3}

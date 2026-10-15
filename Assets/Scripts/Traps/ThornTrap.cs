@@ -1,10 +1,15 @@
 using UnityEngine;
 
-public class ThornTrap : Trap
+public class ThornTrap : Trap, IShadowBreakable
 {
     public override void ApplyDamage(IDamagable damagable)
     {
         damagable.TakeDamage(damage);
+    }
+
+    public void BreakWithShadow()
+    {
+        TakeDamage(maxHp);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

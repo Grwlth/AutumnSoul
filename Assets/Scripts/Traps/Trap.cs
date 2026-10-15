@@ -5,8 +5,10 @@ public abstract class Trap : MonoBehaviour, IDamagable
     [Header("Trap")]
     public int maxHp = 50;
     public int currentHp;
-
     public int damage = 20;
+
+    [Header("Collectible Drop")]
+    public GameObject collectiblePrefab;
 
     protected virtual void Start()
     {
@@ -29,17 +31,22 @@ public abstract class Trap : MonoBehaviour, IDamagable
 
     public virtual void Die()
     {
-        Destroy(gameObject);
-    }
-
-    protected void DamagePlayer(GameObject player)
-    {
-        IDamagable damagable =
-            player.GetComponent<IDamagable>();
-
-        if (damagable != null)
+        if (collectiblePrefab != null)
         {
-            ApplyDamage(damagable);
+            Instantiate(
+                collectiblePrefab,
+                transform.position,
+                Quaternion.identity
+            );
         }
+        else
+        {
+            Debug.LogWarning(
+                gameObject.name +
+                " has no collectible prefab assigned!"
+            );
+        }
+
+        Destroy(gameObject);
     }
 }
