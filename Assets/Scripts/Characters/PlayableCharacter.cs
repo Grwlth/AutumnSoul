@@ -4,7 +4,27 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
 {
     [Header("Movement")]
     public float speed = 5f;
+
+    // How quickly the character reaches full speed
+    public float acceleration = 35f;
+
+    // How quickly the character slows down
+    public float deceleration = 45f;
+
+    [Header("Jump")]
     public float jumpForce = 7f;
+
+    // Small grace period after walking off a platform
+    public float coyoteTime = 0.12f;
+
+    // Allows pressing jump slightly before landing
+    public float jumpBufferTime = 0.12f;
+
+    // Makes falling feel less floaty
+    public float fallGravityMultiplier = 2.2f;
+
+    // Makes short taps produce smaller jumps
+    public float lowJumpGravityMultiplier = 2f;
 
     [Header("Health")]
     public int maxHp = 100;
@@ -20,20 +40,30 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
 
     protected Rigidbody2D rb;
 
+    private float horizontalInput;
+
+    private float coyoteTimeCounter;
+    private float jumpBufferCounter;
+
+    private float normalGravityScale;
+
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
         currentHp = maxHp;
+
+        if (rb != null)
+        {
+            normalGravityScale = rb.gravityScale;
+        }
     }
 
     protected virtual void Update()
     {
-        Movement();
-
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-        {
-            Jump();
-        }
+        ReadMovementInput();
+        UpdateGroundTimers();
+        HandleJumpInput();
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -41,12 +71,90 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         }
     }
 
+    protected virtual void FixedUpdate()
+    {
+        Movement();
+        ApplyBetterGravity();
+    }
+
+    private void ReadMovementInput()
+    {
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+    }
+
+    private void UpdateGroundTimers()
+    {
+        if (IsGrounded())
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
+    }
+
+    private void HandleJumpInput()
+    {
+        // Jump if the player pressed jump recently
+        // and was grounded recently.
+        if (jumpBufferCounter > 0f &&
+            coyoteTimeCounter > 0f)
+        {
+            Jump();
+
+            jumpBufferCounter = 0f;
+            coyoteTimeCounter = 0f;
+        }
+
+        // Releasing Space early cuts the jump short.
+        if (Input.GetKeyUp(KeyCode.Space) &&
+            rb.linearVelocity.y > 0f)
+        {
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                rb.linearVelocity.y * 0.5f
+            );
+        }
+    }
+
     public virtual void Movement()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
+        float targetSpeed =
+            horizontalInput * speed;
+
+        float speedDifference =
+            targetSpeed - rb.linearVelocity.x;
+
+        float movementRate;
+
+        if (Mathf.Abs(targetSpeed) > 0.01f)
+        {
+            movementRate = acceleration;
+        }
+        else
+        {
+            movementRate = deceleration;
+        }
+
+        float newXVelocity =
+            Mathf.MoveTowards(
+                rb.linearVelocity.x,
+                targetSpeed,
+                movementRate * Time.fixedDeltaTime
+            );
 
         rb.linearVelocity = new Vector2(
-            horizontal * speed,
+            newXVelocity,
             rb.linearVelocity.y
         );
     }
@@ -59,23 +167,59 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         );
     }
 
+    private void ApplyBetterGravity()
+    {
+        if (rb == null)
+            return;
+
+        // Falling
+        if (rb.linearVelocity.y < 0f)
+        {
+            rb.gravityScale =
+                normalGravityScale *
+                fallGravityMultiplier;
+        }
+
+        // Going up, but Space is no longer held
+        else if (rb.linearVelocity.y > 0f &&
+                 !Input.GetKey(KeyCode.Space))
+        {
+            rb.gravityScale =
+                normalGravityScale *
+                lowJumpGravityMultiplier;
+        }
+
+        else
+        {
+            rb.gravityScale =
+                normalGravityScale;
+        }
+    }
+
     public bool IsGrounded()
     {
         if (groundCheck == null)
             return false;
 
-        return Physics2D.OverlapCircle(
-            groundCheck.position,
-            groundCheckRadius,
-            groundLayer
-        );
+        Collider2D groundHit =
+            Physics2D.OverlapCircle(
+                groundCheck.position,
+                groundCheckRadius,
+                groundLayer
+            );
+
+        return groundHit != null;
     }
 
     public virtual void TakeDamage(int howMuch)
     {
         currentHp -= howMuch;
 
-        Debug.Log(gameObject.name + " HP: " + currentHp);
+        Debug.Log(
+            gameObject.name +
+            " HP: " +
+            currentHp
+        );
 
         if (currentHp <= 0)
         {
@@ -91,14 +235,23 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         }
     }
 
-    public virtual void ApplyDamage(IDamagable damagable)
+    public virtual void ApplyDamage(
+        IDamagable damagable
+    )
     {
-        damagable.TakeDamage(attackDamage);
+        damagable.TakeDamage(
+            attackDamage
+        );
     }
 
     public void SetHp(int hp)
     {
-        currentHp = Mathf.Clamp(hp, 0, maxHp);
+        currentHp =
+            Mathf.Clamp(
+                hp,
+                0,
+                maxHp
+            );
     }
 
     public int GetHp()
@@ -111,7 +264,9 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         return rb.linearVelocity;
     }
 
-    public void SetVelocity(Vector2 velocity)
+    public void SetVelocity(
+        Vector2 velocity
+    )
     {
         rb.linearVelocity = velocity;
     }
