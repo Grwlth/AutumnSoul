@@ -218,12 +218,12 @@ MonoBehaviour:
   switchCharacterSFX: {fileID: 8300000, guid: d3d55f926c2db5b4ea31e14328707678, type: 3}
   attackSFX: {fileID: 8300000, guid: 71206d99e53624143927a472fd6c8423, type: 3}
   ingredientSFX: {fileID: 8300000, guid: a2755334390c7e348a9d718f03f403f7, type: 3}
-  jumpSFX: {fileID: 8300000, guid: 76e238723736dc64f961a2b9c628811e, type: 3}
+  jumpSFX: {fileID: 8300000, guid: 5883514295a70634bad0572e10b28bf9, type: 3}
   winSFX: {fileID: 8300000, guid: 6e0fa4a6d3ba7f148a5e686bbe1d9104, type: 3}
   loseSFX: {fileID: 8300000, guid: a2f1292595ff2f94d9ea93bdb7789007, type: 3}
   musicVolume: 0.5
   sfxVolume: 1
-  jumpVolume: 0.429
+  jumpVolume: 0.342
 --- !u!82 &45120927
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1989,7 +1989,7 @@ Transform:
   m_GameObject: {fileID: 396989692}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2040,9 +2040,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1428303507
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7283706602507416530, guid: 82af97f6b6e65ab48a080ff7237dfd9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2532,7 +2532,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2d248958eb82d33418a560e5287c873d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2591,9 +2591,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &467587898
 MonoBehaviour:
@@ -8350,7 +8350,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000005f5063f4f9e4e191
+  m_ApplyToSortingLayers: 000000005f5063f4f9e4e1916dd1ddaa
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -8485,7 +8485,7 @@ Transform:
   m_GameObject: {fileID: 621913829}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8536,9 +8536,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1428303507
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 9057829932404926632, guid: 82af97f6b6e65ab48a080ff7237dfd9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -37672,7 +37672,7 @@ MonoBehaviour:
   speed: 5
   acceleration: 35
   deceleration: 45
-  jumpForce: 9
+  jumpForce: 13
   coyoteTime: 0.12
   jumpBufferTime: 0.12
   fallGravityMultiplier: 2.6
@@ -37700,7 +37700,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2d248958eb82d33418a560e5287c873d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -37759,9 +37759,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1966183566
 SpriteRenderer:
@@ -38266,7 +38266,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2d248958eb82d33418a560e5287c873d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -38325,9 +38325,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &2019178434
 SpriteRenderer:
@@ -38560,7 +38560,7 @@ Transform:
   m_GameObject: {fileID: 2072487623}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38611,9 +38611,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1428303507
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6599042521521736221, guid: 82af97f6b6e65ab48a080ff7237dfd9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
