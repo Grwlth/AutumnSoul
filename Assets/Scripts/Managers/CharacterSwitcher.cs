@@ -7,6 +7,9 @@ public class CharacterSwitcher : MonoBehaviour
     public PlayableCharacter cat;
     public PlayableCharacter crow;
 
+    [Header("Spawn")]
+    public Transform spawnPoint;
+
     [Header("Mana")]
     public int manaCost = 3;
 
@@ -22,6 +25,34 @@ public class CharacterSwitcher : MonoBehaviour
             crow
         };
 
+        // Move all forms to the chosen spawn point
+        if (spawnPoint != null)
+        {
+            foreach (PlayableCharacter character in characters)
+            {
+                if (character == null)
+                    continue;
+
+                character.transform.position =
+                    spawnPoint.position;
+
+                Rigidbody2D characterRb =
+                    character.GetComponent<Rigidbody2D>();
+
+                if (characterRb != null)
+                {
+                    characterRb.linearVelocity =
+                        Vector2.zero;
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning(
+                "CharacterSwitcher: No PlayerSpawnPoint assigned!"
+            );
+        }
+
         // Always start as Shadow
         if (shadow != null)
             shadow.gameObject.SetActive(true);
@@ -34,26 +65,11 @@ public class CharacterSwitcher : MonoBehaviour
     }
 
     private void Start()
-{
-    currentCharacterIndex = 0;
-
-    Debug.Log("Starting character: Shadow");
-
-    if (shadow == null || cat == null || crow == null)
     {
-        Debug.LogError(
-            "CharacterSwitcher: Shadow, Cat or Crow is not assigned in the Inspector!"
-        );
+        currentCharacterIndex = 0;
 
-        return;
+        Debug.Log("Starting character: Shadow");
     }
-
-    Debug.Log(
-        "Shadow active: " + shadow.gameObject.activeSelf +
-        " | Cat active: " + cat.gameObject.activeSelf +
-        " | Crow active: " + crow.gameObject.activeSelf
-    );
-}
 
     private void Update()
     {
@@ -65,18 +81,25 @@ public class CharacterSwitcher : MonoBehaviour
 
     private void SwitchCharacter()
     {
-        if (characters == null || characters.Length != 3)
-            return;
-
-        PlayableCharacter current = characters[currentCharacterIndex];
-
-        if (current == null)
+        if (characters == null ||
+            characters.Length != 3)
         {
-            Debug.LogError("Current character is missing!");
             return;
         }
 
-        // Mana check
+        PlayableCharacter current =
+            characters[currentCharacterIndex];
+
+        if (current == null)
+        {
+            Debug.LogError(
+                "Current character is missing!"
+            );
+
+            return;
+        }
+
+        // Check Mana
         if (GameManager.Instance != null)
         {
             if (!GameManager.Instance.TrySpendMana(manaCost))
@@ -86,13 +109,16 @@ public class CharacterSwitcher : MonoBehaviour
             }
         }
 
-        Vector3 currentPosition = current.transform.position;
-        int currentHp = current.GetHp();
+        Vector3 currentPosition =
+            current.transform.position;
 
-        // Turn current character off
+        int currentHp =
+            current.GetHp();
+
+        // Disable current form
         current.gameObject.SetActive(false);
 
-        // Next character
+        // Move to next form
         currentCharacterIndex++;
 
         if (currentCharacterIndex >= characters.Length)
@@ -100,23 +126,40 @@ public class CharacterSwitcher : MonoBehaviour
             currentCharacterIndex = 0;
         }
 
-        PlayableCharacter next = characters[currentCharacterIndex];
+        PlayableCharacter next =
+            characters[currentCharacterIndex];
 
         if (next == null)
         {
-            Debug.LogError("Next character is missing!");
+            Debug.LogError(
+                "Next character is missing!"
+            );
+
+            current.gameObject.SetActive(true);
             return;
         }
 
-        // Move new form to same position
-        next.transform.position = currentPosition;
+        // Keep the exact same position
+        next.transform.position =
+            currentPosition;
 
-        // Preserve HP
         next.SetHp(currentHp);
 
-        // Turn new form on
+        // Reset vertical/horizontal movement on switch
+        Rigidbody2D nextRb =
+            next.GetComponent<Rigidbody2D>();
+
+        if (nextRb != null)
+        {
+            nextRb.linearVelocity =
+                Vector2.zero;
+        }
+
         next.gameObject.SetActive(true);
 
-        Debug.Log("Switched to: " + next.gameObject.name);
+        Debug.Log(
+            "Switched to: " +
+            next.gameObject.name
+        );
     }
 }
