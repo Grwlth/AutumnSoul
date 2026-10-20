@@ -6,20 +6,15 @@ public class WalkingTreeTrap : Trap
         IDamagable damagable
     )
     {
-        damagable.TakeDamage(damage);
+        // HP system is not used anymore.
+        // This obstacle does not deal damage.
     }
 
     private void OnCollisionEnter2D(
         Collision2D collision
     )
     {
-        PlayableCharacter player =
-            collision.gameObject
-                .GetComponent<PlayableCharacter>();
-
-        if (player != null)
-        {
-            ApplyDamage(player);
-        }
+        // The obstacle only blocks the player.
+        // No damage is applied.
     }
 }
