@@ -1060,8 +1060,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   hud: {fileID: 296060044}
-  maxMana: 10
-  currentMana: 10
+  maxMana: 100
+  currentMana: 100
   totalIngredients: 0
   collectedIngredients: 0
   manaText: {fileID: 1294703086}
