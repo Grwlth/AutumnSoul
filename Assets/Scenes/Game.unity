@@ -2846,7 +2846,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.96, y: 0, z: -10}
+  m_LocalPosition: {x: -8.33, y: -2.33, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2865,8 +2865,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   target: {fileID: 636553412}
-  smoothSpeed: 5
-  offset: {x: 0, y: 1, z: -10}
+  FollowSpeed: 2
+  offset: {x: 0, y: 0, z: -10}
 --- !u!1 &536940724
 GameObject:
   m_ObjectHideFlags: 0
@@ -8583,6 +8583,7 @@ MonoBehaviour:
   cat: {fileID: 2019178431}
   crow: {fileID: 1966183563}
   spawnPoint: {fileID: 249301480}
+  cameraFollow: {fileID: 519420033}
   manaCost: 3
 --- !u!4 &636553412
 Transform:

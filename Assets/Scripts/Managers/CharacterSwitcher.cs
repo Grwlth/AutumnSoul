@@ -10,6 +10,9 @@ public class CharacterSwitcher : MonoBehaviour
     [Header("Spawn")]
     public Transform spawnPoint;
 
+    [Header("Camera")]
+    public CameraFollow cameraFollow;
+
     [Header("Mana")]
     public int manaCost = 3;
 
@@ -62,6 +65,12 @@ public class CharacterSwitcher : MonoBehaviour
 
         if (crow != null)
             crow.gameObject.SetActive(false);
+
+        //Make the camera follow Autumn at the start
+        if (cameraFollow != null && autumn != null)
+        {
+            cameraFollow.SetTarget(autumn.transform);
+        }
     }
 
     private void Start()
@@ -157,6 +166,12 @@ public class CharacterSwitcher : MonoBehaviour
 
         // Enable new form
         next.gameObject.SetActive(true);
+
+        // Make the camera follow the new form
+        if (cameraFollow != null)
+        {
+            cameraFollow.SetTarget(next.transform);
+        }
 
         // Play shapeshifting SFX
         if (AudioManager.Instance != null)
