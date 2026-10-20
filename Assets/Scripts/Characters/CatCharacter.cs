@@ -3,90 +3,52 @@ using UnityEngine;
 public class CatCharacter : PlayableCharacter
 {
     [Header("Cat Ability")]
-    public BoxCollider2D catCollider;
-    public Transform visual;
-
-    public float crouchHeightMultiplier = 0.5f;
-
-    private Vector2 normalColliderSize;
-    private Vector2 normalColliderOffset;
-
-    private Vector3 normalVisualScale;
-
-    private bool isCrouching;
-
-    protected override void Awake()
-    {
-        base.Awake();
-
-        if (catCollider == null)
-            catCollider = GetComponent<BoxCollider2D>();
-
-        if (catCollider != null)
-        {
-            normalColliderSize = catCollider.size;
-            normalColliderOffset = catCollider.offset;
-        }
-
-        if (visual != null)
-        {
-            normalVisualScale = visual.localScale;
-        }
-    }
+    public Transform attackPoint;
+    public float attackRange = 1.2f;
+    public LayerMask trapLayer;
 
     public override void SpecialAbility()
     {
-        if (isCrouching)
+        if (attackPoint == null)
         {
-            StandUp();
+            return;
         }
-        else
+
+        Collider2D[] hits =
+            Physics2D.OverlapCircleAll(
+                attackPoint.position,
+                attackRange,
+                trapLayer
+            );
+
+        foreach (Collider2D hit in hits)
         {
-            Crouch();
+            PumpkinTrap pumpkin =
+                hit.GetComponent<PumpkinTrap>();
+
+            if (pumpkin != null)
+            {
+                pumpkin.TakeDamage(
+                    pumpkin.maxHp
+                );
+
+                Debug.Log(
+                    "Cat smashed the Giant Pumpkin!"
+                );
+            }
         }
     }
 
-    private void Crouch()
+    private void OnDrawGizmosSelected()
     {
-        isCrouching = true;
-
-        if (catCollider != null)
+        if (attackPoint == null)
         {
-            catCollider.size = new Vector2(
-                normalColliderSize.x,
-                normalColliderSize.y * crouchHeightMultiplier
-            );
-
-            catCollider.offset = new Vector2(
-                normalColliderOffset.x,
-                normalColliderOffset.y -
-                normalColliderSize.y * 0.25f
-            );
+            return;
         }
 
-        if (visual != null)
-        {
-            visual.localScale = new Vector3(
-                normalVisualScale.x,
-                normalVisualScale.y * crouchHeightMultiplier,
-                normalVisualScale.z
-            );
-        }
-    }
-
-    private void StandUp()
-    {
-        isCrouching = false;
-
-        if (catCollider != null)
-        {
-            catCollider.size = normalColliderSize;
-            catCollider.offset = normalColliderOffset;
-        }
-
-        if (visual != null)
-        {
-            visual.localScale = normalVisualScale;
-        }
+        Gizmos.DrawWireSphere(
+            attackPoint.position,
+            attackRange
+        );
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class CharacterSwitcher : MonoBehaviour
 {
     [Header("Characters")]
-    public PlayableCharacter shadow;
+    public PlayableCharacter autumn;
     public PlayableCharacter cat;
     public PlayableCharacter crow;
 
@@ -20,12 +20,12 @@ public class CharacterSwitcher : MonoBehaviour
     {
         characters = new PlayableCharacter[]
         {
-            shadow,
+            autumn,
             cat,
             crow
         };
 
-        // Move all forms to the chosen spawn point
+        // Move all forms to the spawn point
         if (spawnPoint != null)
         {
             foreach (PlayableCharacter character in characters)
@@ -53,9 +53,9 @@ public class CharacterSwitcher : MonoBehaviour
             );
         }
 
-        // Always start as Shadow
-        if (shadow != null)
-            shadow.gameObject.SetActive(true);
+        // Always start as Autumn
+        if (autumn != null)
+            autumn.gameObject.SetActive(true);
 
         if (cat != null)
             cat.gameObject.SetActive(false);
@@ -68,7 +68,7 @@ public class CharacterSwitcher : MonoBehaviour
     {
         currentCharacterIndex = 0;
 
-        Debug.Log("Starting character: Shadow");
+        Debug.Log("Starting character: Autumn");
     }
 
     private void Update()
@@ -99,7 +99,7 @@ public class CharacterSwitcher : MonoBehaviour
             return;
         }
 
-        // Check Mana
+        // Spend Mana
         if (GameManager.Instance != null)
         {
             if (!GameManager.Instance.TrySpendMana(manaCost))
@@ -118,7 +118,7 @@ public class CharacterSwitcher : MonoBehaviour
         // Disable current form
         current.gameObject.SetActive(false);
 
-        // Move to next form
+        // Go to next form
         currentCharacterIndex++;
 
         if (currentCharacterIndex >= characters.Length)
@@ -139,13 +139,13 @@ public class CharacterSwitcher : MonoBehaviour
             return;
         }
 
-        // Keep the exact same position
+        // Preserve position
         next.transform.position =
             currentPosition;
 
+        // Preserve HP
         next.SetHp(currentHp);
 
-        // Reset vertical/horizontal movement on switch
         Rigidbody2D nextRb =
             next.GetComponent<Rigidbody2D>();
 
@@ -155,7 +155,14 @@ public class CharacterSwitcher : MonoBehaviour
                 Vector2.zero;
         }
 
+        // Enable new form
         next.gameObject.SetActive(true);
+
+        // Play shapeshifting SFX
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySwitchCharacter();
+        }
 
         Debug.Log(
             "Switched to: " +

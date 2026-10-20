@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class ShadowCharacter : PlayableCharacter
+public class AutumnCharacter : PlayableCharacter
 {
-    [Header("Shadow Ability")]
+    [Header("Autumn Ability")]
     public Transform attackPoint;
     public float attackRange = 1.2f;
     public LayerMask trapLayer;
@@ -23,12 +23,18 @@ public class ShadowCharacter : PlayableCharacter
 
         foreach (Collider2D hit in hits)
         {
-            IShadowBreakable breakable =
-                hit.GetComponent<IShadowBreakable>();
+            WalkingTreeTrap walkingTree =
+                hit.GetComponent<WalkingTreeTrap>();
 
-            if (breakable != null)
+            if (walkingTree != null)
             {
-                breakable.BreakWithShadow();
+                walkingTree.TakeDamage(
+                    walkingTree.maxHp
+                );
+
+                Debug.Log(
+                    "Autumn stopped the Walking Tree!"
+                );
             }
         }
     }

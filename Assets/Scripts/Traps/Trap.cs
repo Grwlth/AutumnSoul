@@ -21,7 +21,11 @@ public abstract class Trap : MonoBehaviour, IDamagable
     {
         currentHp -= howMuch;
 
-        Debug.Log(gameObject.name + " HP: " + currentHp);
+        Debug.Log(
+            gameObject.name +
+            " HP: " +
+            currentHp
+        );
 
         if (currentHp <= 0)
         {
@@ -48,5 +52,16 @@ public abstract class Trap : MonoBehaviour, IDamagable
         }
 
         Destroy(gameObject);
+    }
+
+    protected void DamagePlayer(GameObject player)
+    {
+        IDamagable damagable =
+            player.GetComponent<IDamagable>();
+
+        if (damagable != null)
+        {
+            ApplyDamage(damagable);
+        }
     }
 }
