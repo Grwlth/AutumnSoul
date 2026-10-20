@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip switchCharacterSFX;
     public AudioClip attackSFX;
     public AudioClip ingredientSFX;
+    public AudioClip jumpSFX;
     public AudioClip winSFX;
     public AudioClip loseSFX;
 
@@ -24,6 +25,9 @@ public class AudioManager : MonoBehaviour
 
     [Range(0f, 1f)]
     public float sfxVolume = 1f;
+
+    [Range(0f, 1f)]
+    public float jumpVolume = 0.6f;
 
     private void Awake()
     {
@@ -68,7 +72,9 @@ public class AudioManager : MonoBehaviour
     public void PlayMusic()
     {
         if (musicSource == null || levelMusic == null)
+        {
             return;
+        }
 
         musicSource.clip = levelMusic;
         musicSource.volume = musicVolume;
@@ -87,7 +93,9 @@ public class AudioManager : MonoBehaviour
     private void PlaySFX(AudioClip clip)
     {
         if (sfxSource == null || clip == null)
+        {
             return;
+        }
 
         sfxSource.PlayOneShot(
             clip,
@@ -108,6 +116,19 @@ public class AudioManager : MonoBehaviour
     public void PlayIngredient()
     {
         PlaySFX(ingredientSFX);
+    }
+
+    public void PlayJump()
+    {
+        if (sfxSource == null || jumpSFX == null)
+        {
+            return;
+        }
+
+        sfxSource.PlayOneShot(
+            jumpSFX,
+            jumpVolume
+        );
     }
 
     public void PlayWin()

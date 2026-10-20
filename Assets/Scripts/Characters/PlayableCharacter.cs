@@ -178,6 +178,13 @@ public abstract class PlayableCharacter :
                 rb.linearVelocity.x,
                 jumpForce
             );
+
+        // Play jump SFX only when
+        // an actual jump happens
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayJump();
+        }
     }
 
     private void ApplyBetterGravity()
