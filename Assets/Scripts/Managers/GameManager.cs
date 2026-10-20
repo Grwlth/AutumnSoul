@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     public GameHUD hud;
 
     [Header("Mana")]
-    public int maxMana = 10;
-    public int currentMana = 10;
+    public int maxMana = 100;
+    public int currentMana = 100;
 
     [Header("Ingredients")]
     public int totalIngredients = 0;
@@ -132,17 +132,11 @@ public class GameManager : MonoBehaviour
         int shapeshiftCost
     )
     {
-        // If all ingredients are already collected,
-        // the player is allowed to finish the level
-        // even if there is not enough Mana to shapeshift.
         if (HasAllIngredients())
         {
             return;
         }
 
-        // If the player cannot afford another shapeshift
-        // while ingredients are still missing,
-        // the game ends with the Out Of Mana screen.
         if (currentMana < shapeshiftCost)
         {
             OutOfMana();
@@ -163,6 +157,11 @@ public class GameManager : MonoBehaviour
         if (outOfManaPanel != null)
         {
             outOfManaPanel.SetActive(true);
+        }
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayLose();
         }
 
         Time.timeScale = 0f;
@@ -201,8 +200,6 @@ public class GameManager : MonoBehaviour
 
         collectedIngredients++;
 
-        // Extra protection so the counter
-        // can never go above the total.
         if (collectedIngredients > totalIngredients)
         {
             collectedIngredients = totalIngredients;
@@ -226,10 +223,6 @@ public class GameManager : MonoBehaviour
 
     private void UpdateUI()
     {
-        // OLD TEXT UI
-        // These can stay empty in the Inspector
-        // if you're only using the new GameHUD.
-
         if (manaText != null)
         {
             manaText.text =
@@ -248,7 +241,6 @@ public class GameManager : MonoBehaviour
                 totalIngredients;
         }
 
-        // NEW HUD
         if (hud != null)
         {
             hud.UpdateMana(
@@ -279,6 +271,11 @@ public class GameManager : MonoBehaviour
             winPanel.SetActive(true);
         }
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayWin();
+        }
+
         Time.timeScale = 0f;
     }
 
@@ -296,6 +293,11 @@ public class GameManager : MonoBehaviour
         if (losePanel != null)
         {
             losePanel.SetActive(true);
+        }
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayLose();
         }
 
         Time.timeScale = 0f;

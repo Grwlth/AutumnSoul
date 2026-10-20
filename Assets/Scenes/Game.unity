@@ -214,12 +214,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicSource: {fileID: 45120928}
   sfxSource: {fileID: 45120927}
-  levelMusic: {fileID: 0}
+  levelMusic: {fileID: 8300000, guid: 78e5109ece9d55f4481e8470d57b7f30, type: 3}
   switchCharacterSFX: {fileID: 8300000, guid: d3d55f926c2db5b4ea31e14328707678, type: 3}
   attackSFX: {fileID: 8300000, guid: 71206d99e53624143927a472fd6c8423, type: 3}
   ingredientSFX: {fileID: 8300000, guid: a2755334390c7e348a9d718f03f403f7, type: 3}
-  winSFX: {fileID: 0}
-  loseSFX: {fileID: 0}
+  winSFX: {fileID: 8300000, guid: 6e0fa4a6d3ba7f148a5e686bbe1d9104, type: 3}
+  loseSFX: {fileID: 8300000, guid: a2f1292595ff2f94d9ea93bdb7789007, type: 3}
   musicVolume: 0.5
   sfxVolume: 1
 --- !u!82 &45120927
@@ -334,7 +334,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
