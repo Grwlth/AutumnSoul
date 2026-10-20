@@ -1,30 +1,22 @@
 using UnityEngine;
 
-public abstract class PlayableCharacter : MonoBehaviour, IDamagable
+public abstract class PlayableCharacter :
+    MonoBehaviour,
+    IDamagable
 {
     [Header("Movement")]
     public float speed = 5f;
-
-    // How quickly the character reaches full speed
     public float acceleration = 35f;
-
-    // How quickly the character slows down
     public float deceleration = 45f;
 
     [Header("Jump")]
-    public float jumpForce = 7f;
+    public float jumpForce = 9f;
 
-    // Small grace period after walking off a platform
     public float coyoteTime = 0.12f;
-
-    // Allows pressing jump slightly before landing
     public float jumpBufferTime = 0.12f;
 
-    // Makes falling feel less floaty
-    public float fallGravityMultiplier = 2.2f;
-
-    // Makes short taps produce smaller jumps
-    public float lowJumpGravityMultiplier = 2f;
+    public float fallGravityMultiplier = 2.5f;
+    public float lowJumpGravityMultiplier = 2.2f;
 
     [Header("Health")]
     public int maxHp = 100;
@@ -55,18 +47,27 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
 
         if (rb != null)
         {
-            normalGravityScale = rb.gravityScale;
+            normalGravityScale =
+                rb.gravityScale;
         }
     }
 
     protected virtual void Update()
     {
         ReadMovementInput();
+
         UpdateGroundTimers();
+
         HandleJumpInput();
 
+        // Special Ability / Attack
         if (Input.GetKeyDown(KeyCode.E))
         {
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayAttack();
+            }
+
             SpecialAbility();
         }
     }
@@ -74,39 +75,43 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
     protected virtual void FixedUpdate()
     {
         Movement();
+
         ApplyBetterGravity();
     }
 
     private void ReadMovementInput()
     {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
+        horizontalInput =
+            Input.GetAxisRaw("Horizontal");
     }
 
     private void UpdateGroundTimers()
     {
         if (IsGrounded())
         {
-            coyoteTimeCounter = coyoteTime;
+            coyoteTimeCounter =
+                coyoteTime;
         }
         else
         {
-            coyoteTimeCounter -= Time.deltaTime;
+            coyoteTimeCounter -=
+                Time.deltaTime;
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            jumpBufferCounter = jumpBufferTime;
+            jumpBufferCounter =
+                jumpBufferTime;
         }
         else
         {
-            jumpBufferCounter -= Time.deltaTime;
+            jumpBufferCounter -=
+                Time.deltaTime;
         }
     }
 
     private void HandleJumpInput()
     {
-        // Jump if the player pressed jump recently
-        // and was grounded recently.
         if (jumpBufferCounter > 0f &&
             coyoteTimeCounter > 0f)
         {
@@ -116,14 +121,16 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
             coyoteTimeCounter = 0f;
         }
 
-        // Releasing Space early cuts the jump short.
+        // Releasing Space early makes
+        // the jump shorter
         if (Input.GetKeyUp(KeyCode.Space) &&
             rb.linearVelocity.y > 0f)
         {
-            rb.linearVelocity = new Vector2(
-                rb.linearVelocity.x,
-                rb.linearVelocity.y * 0.5f
-            );
+            rb.linearVelocity =
+                new Vector2(
+                    rb.linearVelocity.x,
+                    rb.linearVelocity.y * 0.5f
+                );
         }
     }
 
@@ -133,38 +140,44 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
             horizontalInput * speed;
 
         float speedDifference =
-            targetSpeed - rb.linearVelocity.x;
+            targetSpeed -
+            rb.linearVelocity.x;
 
         float movementRate;
 
         if (Mathf.Abs(targetSpeed) > 0.01f)
         {
-            movementRate = acceleration;
+            movementRate =
+                acceleration;
         }
         else
         {
-            movementRate = deceleration;
+            movementRate =
+                deceleration;
         }
 
         float newXVelocity =
             Mathf.MoveTowards(
                 rb.linearVelocity.x,
                 targetSpeed,
-                movementRate * Time.fixedDeltaTime
+                movementRate *
+                Time.fixedDeltaTime
             );
 
-        rb.linearVelocity = new Vector2(
-            newXVelocity,
-            rb.linearVelocity.y
-        );
+        rb.linearVelocity =
+            new Vector2(
+                newXVelocity,
+                rb.linearVelocity.y
+            );
     }
 
     public virtual void Jump()
     {
-        rb.linearVelocity = new Vector2(
-            rb.linearVelocity.x,
-            jumpForce
-        );
+        rb.linearVelocity =
+            new Vector2(
+                rb.linearVelocity.x,
+                jumpForce
+            );
     }
 
     private void ApplyBetterGravity()
@@ -180,15 +193,19 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
                 fallGravityMultiplier;
         }
 
-        // Going up, but Space is no longer held
-        else if (rb.linearVelocity.y > 0f &&
-                 !Input.GetKey(KeyCode.Space))
+        // Going upward after Space
+        // has been released
+        else if (
+            rb.linearVelocity.y > 0f &&
+            !Input.GetKey(KeyCode.Space)
+        )
         {
             rb.gravityScale =
                 normalGravityScale *
                 lowJumpGravityMultiplier;
         }
 
+        // Normal gravity
         else
         {
             rb.gravityScale =
@@ -199,7 +216,9 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
     public bool IsGrounded()
     {
         if (groundCheck == null)
+        {
             return false;
+        }
 
         Collider2D groundHit =
             Physics2D.OverlapCircle(
@@ -211,7 +230,9 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         return groundHit != null;
     }
 
-    public virtual void TakeDamage(int howMuch)
+    public virtual void TakeDamage(
+        int howMuch
+    )
     {
         currentHp -= howMuch;
 
@@ -239,6 +260,9 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         IDamagable damagable
     )
     {
+        if (damagable == null)
+            return;
+
         damagable.TakeDamage(
             attackDamage
         );
@@ -261,6 +285,11 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
 
     public Vector2 GetVelocity()
     {
+        if (rb == null)
+        {
+            return Vector2.zero;
+        }
+
         return rb.linearVelocity;
     }
 
@@ -268,7 +297,11 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamagable
         Vector2 velocity
     )
     {
-        rb.linearVelocity = velocity;
+        if (rb != null)
+        {
+            rb.linearVelocity =
+                velocity;
+        }
     }
 
     public abstract void SpecialAbility();
