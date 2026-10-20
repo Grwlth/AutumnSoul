@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: e0dbb8faacb8d6d46927196ebb1d5af2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 962818836888378824
+    second: tronchungo3_Walk_0
+  - first:
+      213: 1561200228450258096
+    second: tronchungo3_Walk_1
+  - first:
+      213: -6021276198574145171
+    second: tronchungo3_Walk_2
+  - first:
+      213: 9107019820269399553
+    second: tronchungo3_Walk_3
+  - first:
+      213: -346462211328869738
+    second: tronchungo3_Walk_4
+  - first:
+      213: -3383675823065003411
+    second: tronchungo3_Walk_5
+  - first:
+      213: 2802827502600201469
+    second: tronchungo3_Walk_6
+  - first:
+      213: 566024747472865377
+    second: tronchungo3_Walk_7
+  - first:
+      213: 6611710820247848220
+    second: tronchungo3_Walk_8
+  - first:
+      213: 874400049490352216
+    second: tronchungo3_Walk_9
+  - first:
+      213: 1152547082136934214
+    second: tronchungo3_Walk_10
+  - first:
+      213: -1444983506598764955
+    second: tronchungo3_Walk_11
+  - first:
+      213: 7216976289976857903
+    second: tronchungo3_Walk_12
+  - first:
+      213: 102626571703590872
+    second: tronchungo3_Walk_13
+  - first:
+      213: 4169692874409439608
+    second: tronchungo3_Walk_14
+  - first:
+      213: -7669184372443083560
+    second: tronchungo3_Walk_15
+  - first:
+      213: -6890315782023900668
+    second: tronchungo3_Walk_16
+  - first:
+      213: -3413789526364405657
+    second: tronchungo3_Walk_17
+  - first:
+      213: -9123705120516544925
+    second: tronchungo3_Walk_18
+  - first:
+      213: -3634521625457668962
+    second: tronchungo3_Walk_19
+  - first:
+      213: 1994563263572265887
+    second: tronchungo3_Walk_20
+  - first:
+      213: 5913289597108838344
+    second: tronchungo3_Walk_21
+  - first:
+      213: -2670566100636974148
+    second: tronchungo3_Walk_22
+  - first:
+      213: 5194002909175364389
+    second: tronchungo3_Walk_23
+  - first:
+      213: 5408436828400769548
+    second: tronchungo3_Walk_24
+  - first:
+      213: -7191407990089762220
+    second: tronchungo3_Walk_25
+  - first:
+      213: -95918466363067940
+    second: tronchungo3_Walk_26
+  - first:
+      213: -4062233194616917076
+    second: tronchungo3_Walk_27
+  - first:
+      213: 3523778540339874841
+    second: tronchungo3_Walk_28
+  - first:
+      213: -8222979569832551339
+    second: tronchungo3_Walk_29
+  - first:
+      213: -8243404424106484373
+    second: tronchungo3_Walk_30
+  - first:
+      213: 2488564350424822775
+    second: tronchungo3_Walk_31
+  - first:
+      213: -3645947376057382064
+    second: tronchungo3_Walk_32
+  - first:
+      213: 3824671174050861413
+    second: tronchungo3_Walk_33
+  - first:
+      213: 5706455838609808962
+    second: tronchungo3_Walk_34
+  - first:
+      213: -4106514786761161854
+    second: tronchungo3_Walk_35
+  - first:
+      213: -1247537402661507342
+    second: tronchungo3_Walk_36
+  - first:
+      213: -8046854270237253553
+    second: tronchungo3_Walk_37
+  - first:
+      213: 6040420039978926147
+    second: tronchungo3_Walk_38
+  - first:
+      213: -3051900260069343052
+    second: tronchungo3_Walk_39
+  - first:
+      213: -6784638666706062946
+    second: tronchungo3_Walk_40
+  - first:
+      213: -8886298662894417676
+    second: tronchungo3_Walk_41
+  - first:
+      213: -5644141595229424800
+    second: tronchungo3_Walk_42
+  - first:
+      213: 2690298014377912889
+    second: tronchungo3_Walk_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tronchungo3_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd59c381ae9c5d00800000000000000
+      internalID: 962818836888378824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 274
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc4900165f7aa510800000000000000
+      internalID: 1561200228450258096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 273
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6149711331207ca0800000000000000
+      internalID: -6021276198574145171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 274
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e69958642a26e70800000000000000
+      internalID: 9107019820269399553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 258
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a75a5547e113bf0800000000000000
+      internalID: -346462211328869738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a022334c4ca01d0800000000000000
+      internalID: -3383675823065003411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 225
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df42e2b73c4a5e620800000000000000
+      internalID: 2802827502600201469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 225
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1684337428cead700800000000000000
+      internalID: 566024747472865377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15ca7ee5f381cb50800000000000000
+      internalID: 6611710820247848220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858d475563e722c00800000000000000
+      internalID: 874400049490352216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6475fa9f67baeff00800000000000000
+      internalID: 1152547082136934214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 245
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ed1e6182362fbe0800000000000000
+      internalID: -1444983506598764955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 245
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25bc74d2b9d72460800000000000000
+      internalID: 7216976289976857903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df98eeb25a9c6100800000000000000
+      internalID: 102626571703590872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 178
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871f6a9c399bdd930800000000000000
+      internalID: 4169692874409439608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 178
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc8d834275919590800000000000000
+      internalID: -7669184372443083560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 178
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402923e7d4ea060a0800000000000000
+      internalID: -6890315782023900668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 178
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760c9174388cf90d0800000000000000
+      internalID: -3413789526364405657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 193
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366e2384886126180800000000000000
+      internalID: -9123705120516544925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 192
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cce1296d59f8dc0800000000000000
+      internalID: -3634521625457668962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bc44778bc1eab10800000000000000
+      internalID: 1994563263572265887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 136
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf5fa10f89301250800000000000000
+      internalID: 5913289597108838344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 136
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3455ed74e30fad0800000000000000
+      internalID: -2670566100636974148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b3ebb702ec41840800000000000000
+      internalID: 5194002909175364389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ad7fae3a0ae0b40800000000000000
+      internalID: 5408436828400769548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a3bc3e88cf23c90800000000000000
+      internalID: -7191407990089762220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1770db9aa3baef0800000000000000
+      internalID: -95918466363067940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3fe00ae6c00a7c0800000000000000
+      internalID: -4062233194616917076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 134
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c4a14a9e9f6e030800000000000000
+      internalID: 3523778540339874841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c16d006ab12ed80800000000000000
+      internalID: -8222979569832551339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ddf390a5b899d80800000000000000
+      internalID: -8243404424106484373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3b5cb7718298220800000000000000
+      internalID: 2488564350424822775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 97
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b0554bd2ef66dc0800000000000000
+      internalID: -3645947376057382064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 97
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5615af73b26f31530800000000000000
+      internalID: 3824671174050861413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 96
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e9ac2e957613f40800000000000000
+      internalID: 5706455838609808962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 96
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28346360f8ab207c0800000000000000
+      internalID: -4106514786761161854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fee85e875bdfaee0800000000000000
+      internalID: -1247537402661507342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 54
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f406c2fdca4d35090800000000000000
+      internalID: -8046854270237253553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 54
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3404819d502e3d350800000000000000
+      internalID: 6040420039978926147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 54
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b005a412e875a5d0800000000000000
+      internalID: -3051900260069343052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 54
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91fa95441f18d1a0800000000000000
+      internalID: -6784638666706062946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8462e92768da480800000000000000
+      internalID: -8886298662894417676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063f7528f1bfba1b0800000000000000
+      internalID: -5644141595229424800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a2fee4acbd55520800000000000000
+      internalID: 2690298014377912889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tronchungo3_Walk_0: 962818836888378824
+      tronchungo3_Walk_1: 1561200228450258096
+      tronchungo3_Walk_10: 1152547082136934214
+      tronchungo3_Walk_11: -1444983506598764955
+      tronchungo3_Walk_12: 7216976289976857903
+      tronchungo3_Walk_13: 102626571703590872
+      tronchungo3_Walk_14: 4169692874409439608
+      tronchungo3_Walk_15: -7669184372443083560
+      tronchungo3_Walk_16: -6890315782023900668
+      tronchungo3_Walk_17: -3413789526364405657
+      tronchungo3_Walk_18: -9123705120516544925
+      tronchungo3_Walk_19: -3634521625457668962
+      tronchungo3_Walk_2: -6021276198574145171
+      tronchungo3_Walk_20: 1994563263572265887
+      tronchungo3_Walk_21: 5913289597108838344
+      tronchungo3_Walk_22: -2670566100636974148
+      tronchungo3_Walk_23: 5194002909175364389
+      tronchungo3_Walk_24: 5408436828400769548
+      tronchungo3_Walk_25: -7191407990089762220
+      tronchungo3_Walk_26: -95918466363067940
+      tronchungo3_Walk_27: -4062233194616917076
+      tronchungo3_Walk_28: 3523778540339874841
+      tronchungo3_Walk_29: -8222979569832551339
+      tronchungo3_Walk_3: 9107019820269399553
+      tronchungo3_Walk_30: -8243404424106484373
+      tronchungo3_Walk_31: 2488564350424822775
+      tronchungo3_Walk_32: -3645947376057382064
+      tronchungo3_Walk_33: 3824671174050861413
+      tronchungo3_Walk_34: 5706455838609808962
+      tronchungo3_Walk_35: -4106514786761161854
+      tronchungo3_Walk_36: -1247537402661507342
+      tronchungo3_Walk_37: -8046854270237253553
+      tronchungo3_Walk_38: 6040420039978926147
+      tronchungo3_Walk_39: -3051900260069343052
+      tronchungo3_Walk_4: -346462211328869738
+      tronchungo3_Walk_40: -6784638666706062946
+      tronchungo3_Walk_41: -8886298662894417676
+      tronchungo3_Walk_42: -5644141595229424800
+      tronchungo3_Walk_43: 2690298014377912889
+      tronchungo3_Walk_5: -3383675823065003411
+      tronchungo3_Walk_6: 2802827502600201469
+      tronchungo3_Walk_7: 566024747472865377
+      tronchungo3_Walk_8: 6611710820247848220
+      tronchungo3_Walk_9: 874400049490352216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 57ff7588658daca448f93e0f2d486458
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4188448096770599773
+    second: tronchungo3_Death_0
+  - first:
+      213: 1478524189154943581
+    second: tronchungo3_Death_1
+  - first:
+      213: 7960681355410364161
+    second: tronchungo3_Death_2
+  - first:
+      213: 7916844586697362289
+    second: tronchungo3_Death_3
+  - first:
+      213: -1923799347824362151
+    second: tronchungo3_Death_4
+  - first:
+      213: -5686635850541936249
+    second: tronchungo3_Death_5
+  - first:
+      213: -1486621239934452614
+    second: tronchungo3_Death_6
+  - first:
+      213: -587482373609527108
+    second: tronchungo3_Death_7
+  - first:
+      213: 7501084772467405452
+    second: tronchungo3_Death_8
+  - first:
+      213: -7564079882702438929
+    second: tronchungo3_Death_9
+  - first:
+      213: -3931525551309368688
+    second: tronchungo3_Death_10
+  - first:
+      213: 4600674609838979511
+    second: tronchungo3_Death_11
+  - first:
+      213: -4825422152671598298
+    second: tronchungo3_Death_12
+  - first:
+      213: -1867752644467264977
+    second: tronchungo3_Death_13
+  - first:
+      213: -1026932866754157855
+    second: tronchungo3_Death_14
+  - first:
+      213: -1936710678907679610
+    second: tronchungo3_Death_15
+  - first:
+      213: 8506742454034639264
+    second: tronchungo3_Death_16
+  - first:
+      213: 5594551959609125337
+    second: tronchungo3_Death_17
+  - first:
+      213: -5906346983255772915
+    second: tronchungo3_Death_18
+  - first:
+      213: 8699421371280538902
+    second: tronchungo3_Death_19
+  - first:
+      213: -9107603222801270353
+    second: tronchungo3_Death_20
+  - first:
+      213: -5901551031970548673
+    second: tronchungo3_Death_21
+  - first:
+      213: -5209336977441548797
+    second: tronchungo3_Death_22
+  - first:
+      213: -4290134124040601353
+    second: tronchungo3_Death_23
+  - first:
+      213: 1939893999800568109
+    second: tronchungo3_Death_24
+  - first:
+      213: -310085767079896206
+    second: tronchungo3_Death_25
+  - first:
+      213: -6982444666680641525
+    second: tronchungo3_Death_26
+  - first:
+      213: -4709758526010187129
+    second: tronchungo3_Death_27
+  - first:
+      213: -4988264881001441189
+    second: tronchungo3_Death_28
+  - first:
+      213: 4844936706467341761
+    second: tronchungo3_Death_29
+  - first:
+      213: -2968736175462511204
+    second: tronchungo3_Death_30
+  - first:
+      213: -2684849939288260551
+    second: tronchungo3_Death_31
+  - first:
+      213: -5125678094781516624
+    second: tronchungo3_Death_32
+  - first:
+      213: 3539481836723866610
+    second: tronchungo3_Death_33
+  - first:
+      213: 3843984137050044255
+    second: tronchungo3_Death_34
+  - first:
+      213: 6401953662615490515
+    second: tronchungo3_Death_35
+  - first:
+      213: 8110518358609086035
+    second: tronchungo3_Death_36
+  - first:
+      213: -4377691764878938322
+    second: tronchungo3_Death_37
+  - first:
+      213: 2392641371382504855
+    second: tronchungo3_Death_38
+  - first:
+      213: 8876629482152574585
+    second: tronchungo3_Death_39
+  - first:
+      213: -7684117433566371247
+    second: tronchungo3_Death_40
+  - first:
+      213: 6726969647580258495
+    second: tronchungo3_Death_41
+  - first:
+      213: 1446813243298744682
+    second: tronchungo3_Death_42
+  - first:
+      213: 3309457168216237332
+    second: tronchungo3_Death_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tronchungo3_Death_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b2c284a5b502a30800000000000000
+      internalID: 4188448096770599773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 274
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52276e9ae5c48410800000000000000
+      internalID: 1478524189154943581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 273
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1075f47e3850a7e60800000000000000
+      internalID: 7960681355410364161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 274
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b0214d4384edd60800000000000000
+      internalID: 7916844586697362289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 258
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95dfcc59faa4d45e0800000000000000
+      internalID: -1923799347824362151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7815271b2d20511b0800000000000000
+      internalID: -5686635850541936249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 225
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cf726dbd57e5be0800000000000000
+      internalID: -1486621239934452614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 225
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb86331d4e7d8d7f0800000000000000
+      internalID: -587482373609527108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82f20dabd4391860800000000000000
+      internalID: 7501084772467405452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedb7d24c6df60790800000000000000
+      internalID: -7564079882702438929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09255d8575a6079c0800000000000000
+      internalID: -3931525551309368688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 245
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b97c96ae21e8df30800000000000000
+      internalID: 4600674609838979511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 245
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62965ba4e18a80db0800000000000000
+      internalID: -4825422152671598298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f227b3a9dd86416e0800000000000000
+      internalID: -1867752644467264977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 178
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2e1f4aff99fb1f0800000000000000
+      internalID: -1026932866754157855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 178
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c800f06eb6f15e0800000000000000
+      internalID: -1936710678907679610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 178
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a92878f0350e0670800000000000000
+      internalID: 8506742454034639264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 178
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9a7f5bd57d3ad40800000000000000
+      internalID: 5594551959609125337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 193
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01f6de36b0780ea0800000000000000
+      internalID: -5906346983255772915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 192
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d3e9a45ad8ab870800000000000000
+      internalID: 8699421371280538902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa93abd7f1b4b9180800000000000000
+      internalID: -9107603222801270353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 136
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f343e8baa9a791ea0800000000000000
+      internalID: -5901551031970548673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 136
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061a488e97b4b7b0800000000000000
+      internalID: -5209336977441548797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f047c98eb16674c0800000000000000
+      internalID: -4290134124040601353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2946089053ebea10800000000000000
+      internalID: 1939893999800568109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b5c4343aa52bbf0800000000000000
+      internalID: -310085767079896206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_26
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08fdaaf19f591f90800000000000000
+      internalID: -6982444666680641525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782ab4fe29393aeb0800000000000000
+      internalID: -4709758526010187129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 134
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b585a5a058f16cab0800000000000000
+      internalID: -4988264881001441189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5ac34d34cac3340800000000000000
+      internalID: 4844936706467341761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d84bd6d2eecc6d0800000000000000
+      internalID: -2968736175462511204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9308e75843f7dbad0800000000000000
+      internalID: -2684849939288260551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_32
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 97
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4fb870eeeedd8b0800000000000000
+      internalID: -5125678094781516624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_33
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 97
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb8fde3af3ce1130800000000000000
+      internalID: 3539481836723866610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 96
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57ba13d433985530800000000000000
+      internalID: 3843984137050044255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_35
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 96
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df05b8efee48d850800000000000000
+      internalID: 6401953662615490515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356cd2dc9795e8070800000000000000
+      internalID: 8110518358609086035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 54
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fec3aa8805f33c0800000000000000
+      internalID: -4377691764878938322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 54
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d582886ae543120800000000000000
+      internalID: 2392641371382504855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_39
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 54
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97eb67ecb7f103b70800000000000000
+      internalID: 8876629482152574585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 54
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152e3e708e78c5590800000000000000
+      internalID: -7684117433566371247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb02bd2e04ffa5d50800000000000000
+      internalID: 6726969647580258495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69072faafc141410800000000000000
+      internalID: 1446813243298744682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Death_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41526ee92cd8ded20800000000000000
+      internalID: 3309457168216237332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tronchungo3_Death_0: 4188448096770599773
+      tronchungo3_Death_1: 1478524189154943581
+      tronchungo3_Death_10: -3931525551309368688
+      tronchungo3_Death_11: 4600674609838979511
+      tronchungo3_Death_12: -4825422152671598298
+      tronchungo3_Death_13: -1867752644467264977
+      tronchungo3_Death_14: -1026932866754157855
+      tronchungo3_Death_15: -1936710678907679610
+      tronchungo3_Death_16: 8506742454034639264
+      tronchungo3_Death_17: 5594551959609125337
+      tronchungo3_Death_18: -5906346983255772915
+      tronchungo3_Death_19: 8699421371280538902
+      tronchungo3_Death_2: 7960681355410364161
+      tronchungo3_Death_20: -9107603222801270353
+      tronchungo3_Death_21: -5901551031970548673
+      tronchungo3_Death_22: -5209336977441548797
+      tronchungo3_Death_23: -4290134124040601353
+      tronchungo3_Death_24: 1939893999800568109
+      tronchungo3_Death_25: -310085767079896206
+      tronchungo3_Death_26: -6982444666680641525
+      tronchungo3_Death_27: -4709758526010187129
+      tronchungo3_Death_28: -4988264881001441189
+      tronchungo3_Death_29: 4844936706467341761
+      tronchungo3_Death_3: 7916844586697362289
+      tronchungo3_Death_30: -2968736175462511204
+      tronchungo3_Death_31: -2684849939288260551
+      tronchungo3_Death_32: -5125678094781516624
+      tronchungo3_Death_33: 3539481836723866610
+      tronchungo3_Death_34: 3843984137050044255
+      tronchungo3_Death_35: 6401953662615490515
+      tronchungo3_Death_36: 8110518358609086035
+      tronchungo3_Death_37: -4377691764878938322
+      tronchungo3_Death_38: 2392641371382504855
+      tronchungo3_Death_39: 8876629482152574585
+      tronchungo3_Death_4: -1923799347824362151
+      tronchungo3_Death_40: -7684117433566371247
+      tronchungo3_Death_41: 6726969647580258495
+      tronchungo3_Death_42: 1446813243298744682
+      tronchungo3_Death_43: 3309457168216237332
+      tronchungo3_Death_5: -5686635850541936249
+      tronchungo3_Death_6: -1486621239934452614
+      tronchungo3_Death_7: -587482373609527108
+      tronchungo3_Death_8: 7501084772467405452
+      tronchungo3_Death_9: -7564079882702438929
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

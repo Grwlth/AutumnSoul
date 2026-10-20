@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: cdd5c8035639af84195d69f3747ee8f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1223588022143694947
+    second: tronchungo3_Idle_0
+  - first:
+      213: 8565820412982884543
+    second: tronchungo3_Idle_1
+  - first:
+      213: 1608336911577545947
+    second: tronchungo3_Idle_2
+  - first:
+      213: -3143519911798428922
+    second: tronchungo3_Idle_3
+  - first:
+      213: -3172902412800160741
+    second: tronchungo3_Idle_4
+  - first:
+      213: 1553992559704618958
+    second: tronchungo3_Idle_5
+  - first:
+      213: -9138950937376426051
+    second: tronchungo3_Idle_6
+  - first:
+      213: -842857407568773199
+    second: tronchungo3_Idle_7
+  - first:
+      213: -6248712278299607352
+    second: tronchungo3_Idle_8
+  - first:
+      213: 3110330722983833789
+    second: tronchungo3_Idle_9
+  - first:
+      213: 1674790970339912505
+    second: tronchungo3_Idle_10
+  - first:
+      213: 9044765645576539468
+    second: tronchungo3_Idle_11
+  - first:
+      213: -6787155266434273720
+    second: tronchungo3_Idle_12
+  - first:
+      213: 1988802495443798353
+    second: tronchungo3_Idle_13
+  - first:
+      213: 5179007676875560495
+    second: tronchungo3_Idle_14
+  - first:
+      213: -7394157635602250321
+    second: tronchungo3_Idle_15
+  - first:
+      213: 4055920045085875879
+    second: tronchungo3_Idle_16
+  - first:
+      213: 1154347557491341913
+    second: tronchungo3_Idle_17
+  - first:
+      213: 6536234249207274650
+    second: tronchungo3_Idle_18
+  - first:
+      213: -5620141121443968166
+    second: tronchungo3_Idle_19
+  - first:
+      213: -1988371101636077613
+    second: tronchungo3_Idle_20
+  - first:
+      213: 2939145635755929086
+    second: tronchungo3_Idle_21
+  - first:
+      213: 3329712906376061975
+    second: tronchungo3_Idle_22
+  - first:
+      213: -8365689758212610401
+    second: tronchungo3_Idle_23
+  - first:
+      213: 7837022091350527999
+    second: tronchungo3_Idle_24
+  - first:
+      213: -530716429330069822
+    second: tronchungo3_Idle_25
+  - first:
+      213: 6895233120021268602
+    second: tronchungo3_Idle_26
+  - first:
+      213: 3542583154764816375
+    second: tronchungo3_Idle_27
+  - first:
+      213: 541354268313984554
+    second: tronchungo3_Idle_28
+  - first:
+      213: -4630042777397940122
+    second: tronchungo3_Idle_29
+  - first:
+      213: 1153655054093251247
+    second: tronchungo3_Idle_30
+  - first:
+      213: -6128536842926231919
+    second: tronchungo3_Idle_31
+  - first:
+      213: -4641741297445294779
+    second: tronchungo3_Idle_32
+  - first:
+      213: 1676955567364007464
+    second: tronchungo3_Idle_33
+  - first:
+      213: -6426809241563776661
+    second: tronchungo3_Idle_34
+  - first:
+      213: 6000242878635680234
+    second: tronchungo3_Idle_35
+  - first:
+      213: -7571164414550805161
+    second: tronchungo3_Idle_36
+  - first:
+      213: -6307843631438163995
+    second: tronchungo3_Idle_37
+  - first:
+      213: -773613035543594675
+    second: tronchungo3_Idle_38
+  - first:
+      213: -107954959563430760
+    second: tronchungo3_Idle_39
+  - first:
+      213: 6721887027250554358
+    second: tronchungo3_Idle_40
+  - first:
+      213: -4692713521026909191
+    second: tronchungo3_Idle_41
+  - first:
+      213: 7832386750664894860
+    second: tronchungo3_Idle_42
+  - first:
+      213: -7364880252971964468
+    second: tronchungo3_Idle_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tronchungo3_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97c3bc3d21f40fe0800000000000000
+      internalID: -1223588022143694947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb872ad2848efd670800000000000000
+      internalID: 8565820412982884543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc7ab556e5f15610800000000000000
+      internalID: 1608336911577545947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b23e89b49ff54d0800000000000000
+      internalID: -3143519911798428922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3b3c62c7cf69ffa40bbace70c31ad8cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":40.0,"y":40.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":3.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      tronchungo3_Idle_0: -1223588022143694947
+      tronchungo3_Idle_1: 8565820412982884543
+      tronchungo3_Idle_2: 1608336911577545947
+      tronchungo3_Idle_3: -3143519911798428922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
