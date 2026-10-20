@@ -1,0 +1,2769 @@
+fileFormatVersion: 2
+guid: 96ec73357312a304fb22894fdb615b8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -674088716918027379
+    second: AllRedWitchAnimations_0
+  - first:
+      213: 7682813736294626146
+    second: AllRedWitchAnimations_1
+  - first:
+      213: -218761436097018534
+    second: AllRedWitchAnimations_2
+  - first:
+      213: -8490735506529183226
+    second: AllRedWitchAnimations_3
+  - first:
+      213: -1849874561451358745
+    second: AllRedWitchAnimations_4
+  - first:
+      213: -8785601939588115436
+    second: AllRedWitchAnimations_5
+  - first:
+      213: 597260487153710753
+    second: AllRedWitchAnimations_6
+  - first:
+      213: -7704590075248604083
+    second: AllRedWitchAnimations_7
+  - first:
+      213: -719744901336002676
+    second: AllRedWitchAnimations_8
+  - first:
+      213: 2569668277760577631
+    second: AllRedWitchAnimations_9
+  - first:
+      213: 5229450191252957867
+    second: AllRedWitchAnimations_10
+  - first:
+      213: 7672691648378194559
+    second: AllRedWitchAnimations_11
+  - first:
+      213: -1478331053061190846
+    second: AllRedWitchAnimations_12
+  - first:
+      213: -9020170804445083704
+    second: AllRedWitchAnimations_13
+  - first:
+      213: -105150291467873145
+    second: AllRedWitchAnimations_14
+  - first:
+      213: 6590808232477921182
+    second: AllRedWitchAnimations_15
+  - first:
+      213: -1092720270439501113
+    second: AllRedWitchAnimations_16
+  - first:
+      213: 5007197238295122630
+    second: AllRedWitchAnimations_17
+  - first:
+      213: 2935028773515637801
+    second: AllRedWitchAnimations_18
+  - first:
+      213: -5866878173359604228
+    second: AllRedWitchAnimations_19
+  - first:
+      213: 6103483778376567513
+    second: AllRedWitchAnimations_20
+  - first:
+      213: 2059003246700644186
+    second: AllRedWitchAnimations_21
+  - first:
+      213: -2285505450684087162
+    second: AllRedWitchAnimations_22
+  - first:
+      213: -4056592323394963534
+    second: AllRedWitchAnimations_23
+  - first:
+      213: 6512528587128278674
+    second: AllRedWitchAnimations_24
+  - first:
+      213: 9200990817927731326
+    second: AllRedWitchAnimations_25
+  - first:
+      213: 5119043147758829360
+    second: AllRedWitchAnimations_26
+  - first:
+      213: 8633521802355303808
+    second: AllRedWitchAnimations_27
+  - first:
+      213: 6598920879107125684
+    second: AllRedWitchAnimations_28
+  - first:
+      213: -1718888900595813034
+    second: AllRedWitchAnimations_29
+  - first:
+      213: 7839501269571654088
+    second: AllRedWitchAnimations_30
+  - first:
+      213: -7913574562877064132
+    second: AllRedWitchAnimations_31
+  - first:
+      213: -6809030252679846769
+    second: AllRedWitchAnimations_32
+  - first:
+      213: -6643204977769552527
+    second: AllRedWitchAnimations_33
+  - first:
+      213: 1610705288592569863
+    second: AllRedWitchAnimations_34
+  - first:
+      213: 288496297255569031
+    second: AllRedWitchAnimations_35
+  - first:
+      213: 132342345038357740
+    second: AllRedWitchAnimations_36
+  - first:
+      213: 1417239422554667728
+    second: AllRedWitchAnimations_37
+  - first:
+      213: 659208486086138236
+    second: AllRedWitchAnimations_38
+  - first:
+      213: 5320749043983199183
+    second: AllRedWitchAnimations_39
+  - first:
+      213: -9035900413865976363
+    second: AllRedWitchAnimations_40
+  - first:
+      213: 1893500865045712328
+    second: AllRedWitchAnimations_41
+  - first:
+      213: 7455515231334396272
+    second: AllRedWitchAnimations_42
+  - first:
+      213: -5803248111303224483
+    second: AllRedWitchAnimations_43
+  - first:
+      213: 8200894495592985844
+    second: AllRedWitchAnimations_44
+  - first:
+      213: 3485458751687091115
+    second: AllRedWitchAnimations_45
+  - first:
+      213: 3702322722476456737
+    second: AllRedWitchAnimations_46
+  - first:
+      213: 622709040610337561
+    second: AllRedWitchAnimations_47
+  - first:
+      213: 932814559536590794
+    second: AllRedWitchAnimations_48
+  - first:
+      213: -5175999199123416618
+    second: AllRedWitchAnimations_49
+  - first:
+      213: -6354419242980441509
+    second: AllRedWitchAnimations_50
+  - first:
+      213: 9055045584733380367
+    second: AllRedWitchAnimations_51
+  - first:
+      213: 3058639676034377033
+    second: AllRedWitchAnimations_52
+  - first:
+      213: -6363372286024025290
+    second: AllRedWitchAnimations_53
+  - first:
+      213: 1870296870263150284
+    second: AllRedWitchAnimations_54
+  - first:
+      213: -1169230809284557903
+    second: AllRedWitchAnimations_55
+  - first:
+      213: 3449078731778142965
+    second: AllRedWitchAnimations_56
+  - first:
+      213: 3975973705986717831
+    second: AllRedWitchAnimations_57
+  - first:
+      213: 2585514624583062970
+    second: AllRedWitchAnimations_58
+  - first:
+      213: 7512152021828584449
+    second: AllRedWitchAnimations_59
+  - first:
+      213: 280798760994278072
+    second: AllRedWitchAnimations_60
+  - first:
+      213: -409207973473197279
+    second: AllRedWitchAnimations_61
+  - first:
+      213: 6239597263582833906
+    second: AllRedWitchAnimations_62
+  - first:
+      213: 7644770320089489520
+    second: AllRedWitchAnimations_63
+  - first:
+      213: -2555883907011560836
+    second: AllRedWitchAnimations_64
+  - first:
+      213: 3895656859818813218
+    second: AllRedWitchAnimations_65
+  - first:
+      213: 291155259071827780
+    second: AllRedWitchAnimations_66
+  - first:
+      213: 3746224721072840857
+    second: AllRedWitchAnimations_67
+  - first:
+      213: -1258094259862055681
+    second: AllRedWitchAnimations_68
+  - first:
+      213: 9084705556714207927
+    second: AllRedWitchAnimations_69
+  - first:
+      213: -3657540396001699517
+    second: AllRedWitchAnimations_70
+  - first:
+      213: -1874439205206350703
+    second: AllRedWitchAnimations_71
+  - first:
+      213: -3958958570517532365
+    second: AllRedWitchAnimations_72
+  - first:
+      213: -9124107012708763076
+    second: AllRedWitchAnimations_73
+  - first:
+      213: -2594422981903678865
+    second: AllRedWitchAnimations_74
+  - first:
+      213: 2859415986942111101
+    second: AllRedWitchAnimations_75
+  - first:
+      213: 2520697009329285391
+    second: AllRedWitchAnimations_76
+  - first:
+      213: -9104013351931233385
+    second: AllRedWitchAnimations_77
+  - first:
+      213: -7005024016893359853
+    second: AllRedWitchAnimations_78
+  - first:
+      213: -6107440905605976502
+    second: AllRedWitchAnimations_79
+  - first:
+      213: 4204541001127339370
+    second: AllRedWitchAnimations_80
+  - first:
+      213: 7280307535021682789
+    second: AllRedWitchAnimations_81
+  - first:
+      213: -1197981038003770139
+    second: AllRedWitchAnimations_82
+  - first:
+      213: -5307308636640327148
+    second: AllRedWitchAnimations_83
+  - first:
+      213: -4796832512691804705
+    second: AllRedWitchAnimations_84
+  - first:
+      213: -8260237776588950918
+    second: AllRedWitchAnimations_85
+  - first:
+      213: 6362223834227507437
+    second: AllRedWitchAnimations_86
+  - first:
+      213: 3785160670313403290
+    second: AllRedWitchAnimations_87
+  - first:
+      213: -6866495294871506275
+    second: AllRedWitchAnimations_88
+  - first:
+      213: 5033066919970592618
+    second: AllRedWitchAnimations_89
+  - first:
+      213: 4467768092209269346
+    second: AllRedWitchAnimations_90
+  - first:
+      213: 2068478782729813881
+    second: AllRedWitchAnimations_91
+  - first:
+      213: 6136037979746275528
+    second: AllRedWitchAnimations_92
+  - first:
+      213: -5753633802806087869
+    second: AllRedWitchAnimations_93
+  - first:
+      213: 974814521775759686
+    second: AllRedWitchAnimations_94
+  - first:
+      213: 3021933146593641141
+    second: AllRedWitchAnimations_95
+  - first:
+      213: 2314471995773113030
+    second: AllRedWitchAnimations_96
+  - first:
+      213: 2225046682555039130
+    second: AllRedWitchAnimations_97
+  - first:
+      213: -1405137257410883081
+    second: AllRedWitchAnimations_98
+  - first:
+      213: -5021549979761972814
+    second: AllRedWitchAnimations_99
+  - first:
+      213: 8821040899781167144
+    second: AllRedWitchAnimations_100
+  - first:
+      213: -1930650955595418445
+    second: AllRedWitchAnimations_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b800922e725a6f0800000000000000
+      internalID: -674088716918027379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263355b4366de9a60800000000000000
+      internalID: 7682813736294626146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5502e602adc6fcf0800000000000000
+      internalID: -218761436097018534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a188bea09da2a80800000000000000
+      internalID: -8490735506529183226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e509ad23ece356e0800000000000000
+      internalID: -1849874561451358745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4141ed48595431680800000000000000
+      internalID: -8785601939588115436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a67c27af35e94800800000000000000
+      internalID: 597260487153710753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_7
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 0
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c8ec0b52cc31590800000000000000
+      internalID: -7704590075248604083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_8
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f08fa53d3f206f0800000000000000
+      internalID: -719744901336002676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_9
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5052861fab49a320800000000000000
+      internalID: 2569668277760577631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_10
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa2b3cfd3db29840800000000000000
+      internalID: 5229450191252957867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a40bc0760ea7a60800000000000000
+      internalID: 7672691648378194559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bcbd16db9eb7be0800000000000000
+      internalID: -1478331053061190846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c783bbb17ae1d280800000000000000
+      internalID: -9020170804445083704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 0
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7845705fd5e6a8ef0800000000000000
+      internalID: -105150291467873145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 0
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f0197fa21477b50800000000000000
+      internalID: 6590808232477921182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_16
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 0
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2b59914b0e5d0f0800000000000000
+      internalID: -1092720270439501113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_17
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 0
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2d5e4eb532d7540800000000000000
+      internalID: 5007197238295122630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_18
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 0
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92433fa7e115bb820800000000000000
+      internalID: 2935028773515637801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_19
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 0
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd7868a269a49ea0800000000000000
+      internalID: -5866878173359604228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_20
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 0
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da8e76a82ee3b450800000000000000
+      internalID: 6103483778376567513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_21
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 0
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57c7f63b8c039c10800000000000000
+      internalID: 2059003246700644186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_22
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68481c7d6e04840e0800000000000000
+      internalID: -2285505450684087162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_23
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 0
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7777d46c614b7c0800000000000000
+      internalID: -4056592323394963534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_24
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 0
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e8b51ce36216a50800000000000000
+      internalID: 6512528587128278674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_25
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e789634666c70bf70800000000000000
+      internalID: 9200990817927731326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_26
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fff0cfe9e7a0740800000000000000
+      internalID: 5119043147758829360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_27
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 0
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0856afd365e60d770800000000000000
+      internalID: 8633521802355303808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_28
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b614b393149b50800000000000000
+      internalID: 6598920879107125684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_29
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 3
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ff97e6a74528e0800000000000000
+      internalID: -1718888900595813034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_30
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1da058ed08bcc60800000000000000
+      internalID: 7839501269571654088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_31
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 0
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c352cecd55d2290800000000000000
+      internalID: -7913574562877064132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_32
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84212c9f077181a0800000000000000
+      internalID: -6809030252679846769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_33
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17560f915489ec3a0800000000000000
+      internalID: -6643204977769552527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_34
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70637641def5a5610800000000000000
+      internalID: 1610705288592569863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_35
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 0
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7860fe49ad1f00400800000000000000
+      internalID: 288496297255569031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_36
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4e0c069ac26d100800000000000000
+      internalID: 132342345038357740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_37
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 3
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dafc07febb0ba310800000000000000
+      internalID: 1417239422554667728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_38
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79561e10aaf52900800000000000000
+      internalID: 659208486086138236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_39
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 0
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb2e91a01917d940800000000000000
+      internalID: 5320749043983199183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_40
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 0
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd96b5a2780a9280800000000000000
+      internalID: -9035900413865976363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_41
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 0
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdc1fa2101174a10800000000000000
+      internalID: 1893500865045712328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_42
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 0
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07173351a9f477760800000000000000
+      internalID: 7455515231334396272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_43
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 0
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d539056f698b67fa0800000000000000
+      internalID: -5803248111303224483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_44
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 0
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4b642f71e6fc170800000000000000
+      internalID: 8200894495592985844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_45
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3e5959446de5030800000000000000
+      internalID: 3485458751687091115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_46
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 3
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bf01d76ea416330800000000000000
+      internalID: 3702322722476456737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_47
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913e00cb29e44a800800000000000000
+      internalID: 622709040610337561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_48
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 0
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfad7e46e502fc00800000000000000
+      internalID: 932814559536590794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_49
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 0
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9da8ae6282b28b0800000000000000
+      internalID: -5175999199123416618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_50
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 0
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b528e3c9d5190d7a0800000000000000
+      internalID: -6354419242980441509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_51
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 0
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f900fcbfbf9ad70800000000000000
+      internalID: 9055045584733380367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_52
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 0
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945e1f97498727a20800000000000000
+      internalID: 3058639676034377033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_53
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 0
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bf8f5de92c0b7a0800000000000000
+      internalID: -6363372286024025290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_54
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc65f802811a4f910800000000000000
+      internalID: 1870296870263150284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_55
+      rect:
+        serializedVersion: 2
+        x: 3945
+        y: 0
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3c62816ce06cfe0800000000000000
+      internalID: -1169230809284557903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_56
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 0
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2bdf125d69ddf20800000000000000
+      internalID: 3449078731778142965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_57
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 0
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788b1ad150f7d2730800000000000000
+      internalID: 3975973705986717831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_58
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 44
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5d9d73ad791e320800000000000000
+      internalID: 2585514624583062970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_59
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10443d77676804860800000000000000
+      internalID: 7512152021828584449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_60
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 0
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba0f624cf895e300800000000000000
+      internalID: 280798760994278072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_61
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1236fd52483325af0800000000000000
+      internalID: -409207973473197279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_62
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 0
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcaa5507a0879650800000000000000
+      internalID: 6239597263582833906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_63
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 0
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07022663a1ea71a60800000000000000
+      internalID: 7644770320089489520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_64
+      rect:
+        serializedVersion: 2
+        x: 4517
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a3073d02da78cd0800000000000000
+      internalID: -2555883907011560836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_65
+      rect:
+        serializedVersion: 2
+        x: 4518
+        y: 5
+        width: 92
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22760502647201630800000000000000
+      internalID: 3895656859818813218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_66
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 0
+        width: 123
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f867f5a246a0400800000000000000
+      internalID: 291155259071827780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_67
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 0
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990655419834df330800000000000000
+      internalID: 3746224721072840857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_68
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 0
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4d6f2bfe95a8ee0800000000000000
+      internalID: -1258094259862055681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_69
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 0
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bab7fc229b531e70800000000000000
+      internalID: 9084705556714207927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_70
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3495da8636ecd3dc0800000000000000
+      internalID: -3657540396001699517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_71
+      rect:
+        serializedVersion: 2
+        x: 4208
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1942c9c5977acf5e0800000000000000
+      internalID: -1874439205206350703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_72
+      rect:
+        serializedVersion: 2
+        x: 4369
+        y: 12
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33170d3d724fe09c0800000000000000
+      internalID: -3958958570517532365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_73
+      rect:
+        serializedVersion: 2
+        x: 4441
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3af7d67309a06180800000000000000
+      internalID: -9124107012708763076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_74
+      rect:
+        serializedVersion: 2
+        x: 4448
+        y: 35
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6285863b02cefbd0800000000000000
+      internalID: -2594422981903678865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_75
+      rect:
+        serializedVersion: 2
+        x: 4448
+        y: 19
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7de1c6b0bfaea720800000000000000
+      internalID: 2859415986942111101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_76
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 29
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09267323905bf220800000000000000
+      internalID: 2520697009329285391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_77
+      rect:
+        serializedVersion: 2
+        x: 4506
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bb9bf671c08a180800000000000000
+      internalID: -9104013351931233385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_78
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319cdf555c729ce90800000000000000
+      internalID: -7005024016893359853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_79
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e6aaedad20e3ba0800000000000000
+      internalID: -6107440905605976502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_80
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65a2cf83c7895a30800000000000000
+      internalID: 4204541001127339370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_81
+      rect:
+        serializedVersion: 2
+        x: 4436
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56031906129d80560800000000000000
+      internalID: 7280307535021682789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_82
+      rect:
+        serializedVersion: 2
+        x: 4458
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eca126d79aef5fe0800000000000000
+      internalID: -1197981038003770139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_83
+      rect:
+        serializedVersion: 2
+        x: 4502
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ac0bf0ae6a856b0800000000000000
+      internalID: -5307308636640327148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_84
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 16
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5e5f19e3a3e6db0800000000000000
+      internalID: -4796832512691804705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_85
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72372eb18dbd5d80800000000000000
+      internalID: -8260237776588950918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_86
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 19
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de087a46ed82b4850800000000000000
+      internalID: 6362223834227507437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_87
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a935fc33397978430800000000000000
+      internalID: 3785160670313403290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_88
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92fa49d8ee45b0a0800000000000000
+      internalID: -6866495294871506275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_89
+      rect:
+        serializedVersion: 2
+        x: 4502
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67dd9782bb09d540800000000000000
+      internalID: 5033066919970592618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_90
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a45fa9863b00e30800000000000000
+      internalID: 4467768092209269346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_91
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ffa0e5e76b4bc10800000000000000
+      internalID: 2068478782729813881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_92
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0151f4806972550800000000000000
+      internalID: 6136037979746275528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_93
+      rect:
+        serializedVersion: 2
+        x: 4208
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f20185a8cf620b0800000000000000
+      internalID: -5753633802806087869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_94
+      rect:
+        serializedVersion: 2
+        x: 4441
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641265c84ac378d00800000000000000
+      internalID: 974814521775759686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_95
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b241b99f2010f920800000000000000
+      internalID: 3021933146593641141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_96
+      rect:
+        serializedVersion: 2
+        x: 4508
+        y: 7
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c255ae7408ae1020800000000000000
+      internalID: 2314471995773113030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_97
+      rect:
+        serializedVersion: 2
+        x: 4522
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dba524b24f0ee10800000000000000
+      internalID: 2225046682555039130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_98
+      rect:
+        serializedVersion: 2
+        x: 4078
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f19b5feb13ff7ce0800000000000000
+      internalID: -1405137257410883081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_99
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9ea6216eedf4ab0800000000000000
+      internalID: -5021549979761972814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_100
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82806a466f1aa6a70800000000000000
+      internalID: 8821040899781167144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllRedWitchAnimations_101
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b477765f23f435e0800000000000000
+      internalID: -1930650955595418445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AllRedWitchAnimations_0: -674088716918027379
+      AllRedWitchAnimations_1: 7682813736294626146
+      AllRedWitchAnimations_10: 5229450191252957867
+      AllRedWitchAnimations_100: 8821040899781167144
+      AllRedWitchAnimations_101: -1930650955595418445
+      AllRedWitchAnimations_11: 7672691648378194559
+      AllRedWitchAnimations_12: -1478331053061190846
+      AllRedWitchAnimations_13: -9020170804445083704
+      AllRedWitchAnimations_14: -105150291467873145
+      AllRedWitchAnimations_15: 6590808232477921182
+      AllRedWitchAnimations_16: -1092720270439501113
+      AllRedWitchAnimations_17: 5007197238295122630
+      AllRedWitchAnimations_18: 2935028773515637801
+      AllRedWitchAnimations_19: -5866878173359604228
+      AllRedWitchAnimations_2: -218761436097018534
+      AllRedWitchAnimations_20: 6103483778376567513
+      AllRedWitchAnimations_21: 2059003246700644186
+      AllRedWitchAnimations_22: -2285505450684087162
+      AllRedWitchAnimations_23: -4056592323394963534
+      AllRedWitchAnimations_24: 6512528587128278674
+      AllRedWitchAnimations_25: 9200990817927731326
+      AllRedWitchAnimations_26: 5119043147758829360
+      AllRedWitchAnimations_27: 8633521802355303808
+      AllRedWitchAnimations_28: 6598920879107125684
+      AllRedWitchAnimations_29: -1718888900595813034
+      AllRedWitchAnimations_3: -8490735506529183226
+      AllRedWitchAnimations_30: 7839501269571654088
+      AllRedWitchAnimations_31: -7913574562877064132
+      AllRedWitchAnimations_32: -6809030252679846769
+      AllRedWitchAnimations_33: -6643204977769552527
+      AllRedWitchAnimations_34: 1610705288592569863
+      AllRedWitchAnimations_35: 288496297255569031
+      AllRedWitchAnimations_36: 132342345038357740
+      AllRedWitchAnimations_37: 1417239422554667728
+      AllRedWitchAnimations_38: 659208486086138236
+      AllRedWitchAnimations_39: 5320749043983199183
+      AllRedWitchAnimations_4: -1849874561451358745
+      AllRedWitchAnimations_40: -9035900413865976363
+      AllRedWitchAnimations_41: 1893500865045712328
+      AllRedWitchAnimations_42: 7455515231334396272
+      AllRedWitchAnimations_43: -5803248111303224483
+      AllRedWitchAnimations_44: 8200894495592985844
+      AllRedWitchAnimations_45: 3485458751687091115
+      AllRedWitchAnimations_46: 3702322722476456737
+      AllRedWitchAnimations_47: 622709040610337561
+      AllRedWitchAnimations_48: 932814559536590794
+      AllRedWitchAnimations_49: -5175999199123416618
+      AllRedWitchAnimations_5: -8785601939588115436
+      AllRedWitchAnimations_50: -6354419242980441509
+      AllRedWitchAnimations_51: 9055045584733380367
+      AllRedWitchAnimations_52: 3058639676034377033
+      AllRedWitchAnimations_53: -6363372286024025290
+      AllRedWitchAnimations_54: 1870296870263150284
+      AllRedWitchAnimations_55: -1169230809284557903
+      AllRedWitchAnimations_56: 3449078731778142965
+      AllRedWitchAnimations_57: 3975973705986717831
+      AllRedWitchAnimations_58: 2585514624583062970
+      AllRedWitchAnimations_59: 7512152021828584449
+      AllRedWitchAnimations_6: 597260487153710753
+      AllRedWitchAnimations_60: 280798760994278072
+      AllRedWitchAnimations_61: -409207973473197279
+      AllRedWitchAnimations_62: 6239597263582833906
+      AllRedWitchAnimations_63: 7644770320089489520
+      AllRedWitchAnimations_64: -2555883907011560836
+      AllRedWitchAnimations_65: 3895656859818813218
+      AllRedWitchAnimations_66: 291155259071827780
+      AllRedWitchAnimations_67: 3746224721072840857
+      AllRedWitchAnimations_68: -1258094259862055681
+      AllRedWitchAnimations_69: 9084705556714207927
+      AllRedWitchAnimations_7: -7704590075248604083
+      AllRedWitchAnimations_70: -3657540396001699517
+      AllRedWitchAnimations_71: -1874439205206350703
+      AllRedWitchAnimations_72: -3958958570517532365
+      AllRedWitchAnimations_73: -9124107012708763076
+      AllRedWitchAnimations_74: -2594422981903678865
+      AllRedWitchAnimations_75: 2859415986942111101
+      AllRedWitchAnimations_76: 2520697009329285391
+      AllRedWitchAnimations_77: -9104013351931233385
+      AllRedWitchAnimations_78: -7005024016893359853
+      AllRedWitchAnimations_79: -6107440905605976502
+      AllRedWitchAnimations_8: -719744901336002676
+      AllRedWitchAnimations_80: 4204541001127339370
+      AllRedWitchAnimations_81: 7280307535021682789
+      AllRedWitchAnimations_82: -1197981038003770139
+      AllRedWitchAnimations_83: -5307308636640327148
+      AllRedWitchAnimations_84: -4796832512691804705
+      AllRedWitchAnimations_85: -8260237776588950918
+      AllRedWitchAnimations_86: 6362223834227507437
+      AllRedWitchAnimations_87: 3785160670313403290
+      AllRedWitchAnimations_88: -6866495294871506275
+      AllRedWitchAnimations_89: 5033066919970592618
+      AllRedWitchAnimations_9: 2569668277760577631
+      AllRedWitchAnimations_90: 4467768092209269346
+      AllRedWitchAnimations_91: 2068478782729813881
+      AllRedWitchAnimations_92: 6136037979746275528
+      AllRedWitchAnimations_93: -5753633802806087869
+      AllRedWitchAnimations_94: 974814521775759686
+      AllRedWitchAnimations_95: 3021933146593641141
+      AllRedWitchAnimations_96: 2314471995773113030
+      AllRedWitchAnimations_97: 2225046682555039130
+      AllRedWitchAnimations_98: -1405137257410883081
+      AllRedWitchAnimations_99: -5021549979761972814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
