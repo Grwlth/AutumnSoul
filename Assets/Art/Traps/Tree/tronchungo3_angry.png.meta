@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: b35351f151205964e8031bf82b313be9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1515010504149916838
+    second: tronchungo3_angry_0
+  - first:
+      213: 6086103138622071626
+    second: tronchungo3_angry_1
+  - first:
+      213: -8769682000277721564
+    second: tronchungo3_angry_2
+  - first:
+      213: 6440555701188728718
+    second: tronchungo3_angry_3
+  - first:
+      213: 8437029585808428591
+    second: tronchungo3_angry_4
+  - first:
+      213: 6001677725376682963
+    second: tronchungo3_angry_5
+  - first:
+      213: 6456795293321437271
+    second: tronchungo3_angry_6
+  - first:
+      213: 4345079429603384460
+    second: tronchungo3_angry_7
+  - first:
+      213: -2486760443786341569
+    second: tronchungo3_angry_8
+  - first:
+      213: 8766904541379403175
+    second: tronchungo3_angry_9
+  - first:
+      213: 1680056855526623216
+    second: tronchungo3_angry_10
+  - first:
+      213: 3075883946144229333
+    second: tronchungo3_angry_11
+  - first:
+      213: 8540751900582153875
+    second: tronchungo3_angry_12
+  - first:
+      213: -8637703545570706984
+    second: tronchungo3_angry_13
+  - first:
+      213: 4618386337559207125
+    second: tronchungo3_angry_14
+  - first:
+      213: -330992962295109354
+    second: tronchungo3_angry_15
+  - first:
+      213: -1080802872965575222
+    second: tronchungo3_angry_16
+  - first:
+      213: 721951345161342309
+    second: tronchungo3_angry_17
+  - first:
+      213: 4493332628207038492
+    second: tronchungo3_angry_18
+  - first:
+      213: -3842184840887921908
+    second: tronchungo3_angry_19
+  - first:
+      213: 2662897506292096751
+    second: tronchungo3_angry_20
+  - first:
+      213: -1311798017395963926
+    second: tronchungo3_angry_21
+  - first:
+      213: -1265312652716841184
+    second: tronchungo3_angry_22
+  - first:
+      213: 2811212601078840423
+    second: tronchungo3_angry_23
+  - first:
+      213: -4662674047674510223
+    second: tronchungo3_angry_24
+  - first:
+      213: -3073766132956482232
+    second: tronchungo3_angry_25
+  - first:
+      213: -2682500599731705766
+    second: tronchungo3_angry_26
+  - first:
+      213: -3754263094730320036
+    second: tronchungo3_angry_27
+  - first:
+      213: 1258404272612770658
+    second: tronchungo3_angry_28
+  - first:
+      213: 7462840191372737552
+    second: tronchungo3_angry_29
+  - first:
+      213: 643171844928642390
+    second: tronchungo3_angry_30
+  - first:
+      213: -8317957856761042001
+    second: tronchungo3_angry_31
+  - first:
+      213: -8368585366437291650
+    second: tronchungo3_angry_32
+  - first:
+      213: 8322610926931596097
+    second: tronchungo3_angry_33
+  - first:
+      213: 729493812090175909
+    second: tronchungo3_angry_34
+  - first:
+      213: -5683220418830456229
+    second: tronchungo3_angry_35
+  - first:
+      213: 5012192258763687713
+    second: tronchungo3_angry_36
+  - first:
+      213: 1442425594500880962
+    second: tronchungo3_angry_37
+  - first:
+      213: 3193474697581641921
+    second: tronchungo3_angry_38
+  - first:
+      213: 5676640616719840903
+    second: tronchungo3_angry_39
+  - first:
+      213: -6337961968003380863
+    second: tronchungo3_angry_40
+  - first:
+      213: 7326395411491645764
+    second: tronchungo3_angry_41
+  - first:
+      213: -5727867227038179302
+    second: tronchungo3_angry_42
+  - first:
+      213: 293718335648222962
+    second: tronchungo3_angry_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tronchungo3_angry_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53a82d29f999fae0800000000000000
+      internalID: -1515010504149916838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 274
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4365fb1f8e267450800000000000000
+      internalID: 6086103138622071626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 273
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e2f4c3fa4db4680800000000000000
+      internalID: -8769682000277721564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 274
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8798756943716950800000000000000
+      internalID: 6440555701188728718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 258
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e829df4b9561570800000000000000
+      internalID: 8437029585808428591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db937dc71e3a4350800000000000000
+      internalID: 6001677725376682963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 225
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750a6d51c152b9950800000000000000
+      internalID: 6456795293321437271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 225
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cdd5258b2dc4c30800000000000000
+      internalID: 4345079429603384460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f335f924d804d7dd0800000000000000
+      internalID: -2486760443786341569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad9da83b3d4aa970800000000000000
+      internalID: 8766904541379403175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7cf1c0fc2c05710800000000000000
+      internalID: 1680056855526623216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 245
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7e04cf62cbfaa20800000000000000
+      internalID: 3075883946144229333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 245
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e01fc4a98d68670800000000000000
+      internalID: 8540751900582153875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9302bc366b02880800000000000000
+      internalID: -8637703545570706984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 178
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcdbbd97edc71040800000000000000
+      internalID: 4618386337559207125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 178
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619ee3b87a3186bf0800000000000000
+      internalID: -330992962295109354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 178
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd4aac63873001f0800000000000000
+      internalID: -1080802872965575222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 178
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d05716ce2e40a00800000000000000
+      internalID: 721951345161342309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 193
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10f3f9f7368b5e30800000000000000
+      internalID: 4493332628207038492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 192
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c031c757e31ddaac0800000000000000
+      internalID: -3842184840887921908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee50df5c2384f420800000000000000
+      internalID: 2662897506292096751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 136
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae74d0447ae8bcde0800000000000000
+      internalID: -1311798017395963926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 136
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0276105a8d4b07ee0800000000000000
+      internalID: -1265312652716841184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cf76b57fe630720800000000000000
+      internalID: 2811212601078840423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1749de458aada4fb0800000000000000
+      internalID: -4662674047674510223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845b082dcf9c755d0800000000000000
+      internalID: -3073766132956482232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_26
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a582833cae7d5cad0800000000000000
+      internalID: -2682500599731705766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 135
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c579d353b9d26ebc0800000000000000
+      internalID: -3754263094730320036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 134
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2630be4c400c67110800000000000000
+      internalID: 1258404272612770658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cb74e3d95519760800000000000000
+      internalID: 7462840191372737552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d1182a2610de800800000000000000
+      internalID: 643171844928642390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 99
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faba613566da09c80800000000000000
+      internalID: -8317957856761042001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_32
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 97
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7919f8a2ffccdb80800000000000000
+      internalID: -8368585366437291650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_33
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 97
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143da8ffa8adf7370800000000000000
+      internalID: 8322610926931596097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 96
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a10b7fc1ceaf1a00800000000000000
+      internalID: 729493812090175909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_35
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 96
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a2d5bd3252121b0800000000000000
+      internalID: -5683220418830456229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1278299bd42ee8540800000000000000
+      internalID: 5012192258763687713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 54
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a18279f66840410800000000000000
+      internalID: 1442425594500880962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 54
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c04d845150815c20800000000000000
+      internalID: 3193474697581641921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_39
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 54
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786f325909a77ce40800000000000000
+      internalID: 5676640616719840903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 54
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18909398b290b08a0800000000000000
+      internalID: -6337961968003380863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449e2025fc59ca560800000000000000
+      internalID: 7326395411491645764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10a9c3ca178280b0800000000000000
+      internalID: -5727867227038179302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronchungo3_angry_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fec454254f731400800000000000000
+      internalID: 293718335648222962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tronchungo3_angry_0: -1515010504149916838
+      tronchungo3_angry_1: 6086103138622071626
+      tronchungo3_angry_10: 1680056855526623216
+      tronchungo3_angry_11: 3075883946144229333
+      tronchungo3_angry_12: 8540751900582153875
+      tronchungo3_angry_13: -8637703545570706984
+      tronchungo3_angry_14: 4618386337559207125
+      tronchungo3_angry_15: -330992962295109354
+      tronchungo3_angry_16: -1080802872965575222
+      tronchungo3_angry_17: 721951345161342309
+      tronchungo3_angry_18: 4493332628207038492
+      tronchungo3_angry_19: -3842184840887921908
+      tronchungo3_angry_2: -8769682000277721564
+      tronchungo3_angry_20: 2662897506292096751
+      tronchungo3_angry_21: -1311798017395963926
+      tronchungo3_angry_22: -1265312652716841184
+      tronchungo3_angry_23: 2811212601078840423
+      tronchungo3_angry_24: -4662674047674510223
+      tronchungo3_angry_25: -3073766132956482232
+      tronchungo3_angry_26: -2682500599731705766
+      tronchungo3_angry_27: -3754263094730320036
+      tronchungo3_angry_28: 1258404272612770658
+      tronchungo3_angry_29: 7462840191372737552
+      tronchungo3_angry_3: 6440555701188728718
+      tronchungo3_angry_30: 643171844928642390
+      tronchungo3_angry_31: -8317957856761042001
+      tronchungo3_angry_32: -8368585366437291650
+      tronchungo3_angry_33: 8322610926931596097
+      tronchungo3_angry_34: 729493812090175909
+      tronchungo3_angry_35: -5683220418830456229
+      tronchungo3_angry_36: 5012192258763687713
+      tronchungo3_angry_37: 1442425594500880962
+      tronchungo3_angry_38: 3193474697581641921
+      tronchungo3_angry_39: 5676640616719840903
+      tronchungo3_angry_4: 8437029585808428591
+      tronchungo3_angry_40: -6337961968003380863
+      tronchungo3_angry_41: 7326395411491645764
+      tronchungo3_angry_42: -5727867227038179302
+      tronchungo3_angry_43: 293718335648222962
+      tronchungo3_angry_5: 6001677725376682963
+      tronchungo3_angry_6: 6456795293321437271
+      tronchungo3_angry_7: 4345079429603384460
+      tronchungo3_angry_8: -2486760443786341569
+      tronchungo3_angry_9: 8766904541379403175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
