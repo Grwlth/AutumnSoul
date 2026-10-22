@@ -30,6 +30,9 @@ public abstract class PlayableCharacter :
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
+    [Header("Animation")]
+    public Animator animator;
+
     protected Rigidbody2D rb;
 
     private float horizontalInput;
@@ -50,6 +53,14 @@ public abstract class PlayableCharacter :
             normalGravityScale =
                 rb.gravityScale;
         }
+
+        // Automatically find Animator in children,
+        // including inactive children.
+        if (animator == null)
+        {
+            animator =
+                GetComponentInChildren<Animator>(true);
+        }
     }
 
     protected virtual void Update()
@@ -60,6 +71,8 @@ public abstract class PlayableCharacter :
 
         HandleJumpInput();
 
+        UpdateAnimations();
+
         // Special Ability / Attack
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -67,6 +80,8 @@ public abstract class PlayableCharacter :
             {
                 AudioManager.Instance.PlayAttack();
             }
+
+            PlayAttackAnimation();
 
             SpecialAbility();
         }
@@ -139,10 +154,6 @@ public abstract class PlayableCharacter :
         float targetSpeed =
             horizontalInput * speed;
 
-        float speedDifference =
-            targetSpeed -
-            rb.linearVelocity.x;
-
         float movementRate;
 
         if (Mathf.Abs(targetSpeed) > 0.01f)
@@ -179,29 +190,65 @@ public abstract class PlayableCharacter :
                 jumpForce
             );
 
-        // Play jump SFX only when
-        // an actual jump happens
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.PlayJump();
         }
     }
 
+    private void UpdateAnimations()
+    {
+        if (animator == null)
+        {
+            return;
+        }
+
+        bool grounded =
+            IsGrounded();
+
+        bool running =
+            grounded &&
+            Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+
+        bool jumping =
+            !grounded;
+
+        animator.SetBool(
+            "isRunning",
+            running
+        );
+
+        animator.SetBool(
+            "isJumping",
+            jumping
+        );
+    }
+
+    private void PlayAttackAnimation()
+    {
+        if (animator == null)
+        {
+            return;
+        }
+
+        animator.SetTrigger(
+            "isAttacking"
+        );
+    }
+
     private void ApplyBetterGravity()
     {
         if (rb == null)
+        {
             return;
+        }
 
-        // Falling
         if (rb.linearVelocity.y < 0f)
         {
             rb.gravityScale =
                 normalGravityScale *
                 fallGravityMultiplier;
         }
-
-        // Going upward after Space
-        // has been released
         else if (
             rb.linearVelocity.y > 0f &&
             !Input.GetKey(KeyCode.Space)
@@ -211,8 +258,6 @@ public abstract class PlayableCharacter :
                 normalGravityScale *
                 lowJumpGravityMultiplier;
         }
-
-        // Normal gravity
         else
         {
             rb.gravityScale =
@@ -268,7 +313,9 @@ public abstract class PlayableCharacter :
     )
     {
         if (damagable == null)
+        {
             return;
+        }
 
         damagable.TakeDamage(
             attackDamage

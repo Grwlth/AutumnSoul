@@ -3195,7 +3195,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.08, y: 1.96}
+    oldSize: {x: 0.27, y: 0.49}
     newSize: {x: 0.27, y: 0.49}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3258,6 +3258,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 621913832}
+  attackAnimationTime: 0.35
   attackPoint: {fileID: 1181458269}
   attackRange: 1.2
   trapLayer:
@@ -39775,6 +39777,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 2072487626}
+  attackAnimationTime: 0.35
   attackPoint: {fileID: 1044495358}
   attackRange: 1.2
   trapLayer:
@@ -40347,6 +40351,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 396989695}
+  attackAnimationTime: 0.35
   attackPoint: {fileID: 558395078}
   attackRange: 1.2
   trapLayer:
