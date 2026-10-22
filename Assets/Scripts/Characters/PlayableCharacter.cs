@@ -54,8 +54,6 @@ public abstract class PlayableCharacter :
                 rb.gravityScale;
         }
 
-        // Automatically find Animator in children,
-        // including inactive children.
         if (animator == null)
         {
             animator =
@@ -96,8 +94,35 @@ public abstract class PlayableCharacter :
 
     private void ReadMovementInput()
     {
+        // Supports:
+        // A / D
+        // Left Arrow / Right Arrow
         horizontalInput =
             Input.GetAxisRaw("Horizontal");
+    }
+
+    private bool JumpButtonDown()
+    {
+        return
+            Input.GetKeyDown(KeyCode.Space) ||
+            Input.GetKeyDown(KeyCode.W) ||
+            Input.GetKeyDown(KeyCode.UpArrow);
+    }
+
+    private bool JumpButtonUp()
+    {
+        return
+            Input.GetKeyUp(KeyCode.Space) ||
+            Input.GetKeyUp(KeyCode.W) ||
+            Input.GetKeyUp(KeyCode.UpArrow);
+    }
+
+    private bool JumpButtonHeld()
+    {
+        return
+            Input.GetKey(KeyCode.Space) ||
+            Input.GetKey(KeyCode.W) ||
+            Input.GetKey(KeyCode.UpArrow);
     }
 
     private void UpdateGroundTimers()
@@ -113,7 +138,7 @@ public abstract class PlayableCharacter :
                 Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (JumpButtonDown())
         {
             jumpBufferCounter =
                 jumpBufferTime;
@@ -136,9 +161,9 @@ public abstract class PlayableCharacter :
             coyoteTimeCounter = 0f;
         }
 
-        // Releasing Space early makes
-        // the jump shorter
-        if (Input.GetKeyUp(KeyCode.Space) &&
+        // Releasing any jump button early
+        // makes the jump shorter
+        if (JumpButtonUp() &&
             rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity =
@@ -251,7 +276,7 @@ public abstract class PlayableCharacter :
         }
         else if (
             rb.linearVelocity.y > 0f &&
-            !Input.GetKey(KeyCode.Space)
+            !JumpButtonHeld()
         )
         {
             rb.gravityScale =
