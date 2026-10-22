@@ -240,6 +240,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2486228781825526393, guid: a8bff7d9735514948be7ac1adf9d76f7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 295192393}
+    - targetCorrespondingSourceObject: {fileID: 2486228781825526393, guid: a8bff7d9735514948be7ac1adf9d76f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 295192394}
   m_SourcePrefab: {fileID: 100100000, guid: a8bff7d9735514948be7ac1adf9d76f7, type: 3}
 --- !u!1 &45120925
 GameObject:
@@ -1983,6 +1986,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &295192394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295192390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42613c4b13049a54cb50f71829ba9f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FacePlayer
+  flipWhenPlayerIsLeft: 1
 --- !u!1 &296060042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,7 +3211,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.27, y: 0.49}
+    oldSize: {x: 1.08, y: 1.96}
     newSize: {x: 0.27, y: 0.49}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3259,7 +3275,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 621913832}
-  attackAnimationTime: 0.35
   attackPoint: {fileID: 1181458269}
   attackRange: 1.2
   trapLayer:
@@ -11040,6 +11055,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4895750546389337942, guid: 10848e6dd1d66da4f93f91234a6b141b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1561643151}
+    - targetCorrespondingSourceObject: {fileID: 4895750546389337942, guid: 10848e6dd1d66da4f93f91234a6b141b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1561643152}
   m_SourcePrefab: {fileID: 100100000, guid: 10848e6dd1d66da4f93f91234a6b141b, type: 3}
 --- !u!1 &1294703084
 GameObject:
@@ -17145,6 +17163,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1561643152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561643148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42613c4b13049a54cb50f71829ba9f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FacePlayer
+  flipWhenPlayerIsLeft: 1
 --- !u!1001 &1584818939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19582,6 +19613,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1256260151763521281, guid: 21d2a791c53a3f740a7093d955ea3ddc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1797531753}
+    - targetCorrespondingSourceObject: {fileID: 1256260151763521281, guid: 21d2a791c53a3f740a7093d955ea3ddc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1797531754}
   m_SourcePrefab: {fileID: 100100000, guid: 21d2a791c53a3f740a7093d955ea3ddc, type: 3}
 --- !u!1 &1677408394
 GameObject:
@@ -25042,6 +25076,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1797531754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797531750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42613c4b13049a54cb50f71829ba9f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FacePlayer
+  flipWhenPlayerIsLeft: 1
 --- !u!1 &1799442720
 GameObject:
   m_ObjectHideFlags: 0
@@ -39778,7 +39825,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 2072487626}
-  attackAnimationTime: 0.35
   attackPoint: {fileID: 1044495358}
   attackRange: 1.2
   trapLayer:
@@ -40352,7 +40398,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 396989695}
-  attackAnimationTime: 0.35
   attackPoint: {fileID: 558395078}
   attackRange: 1.2
   trapLayer:
