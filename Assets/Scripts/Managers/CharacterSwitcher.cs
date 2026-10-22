@@ -16,6 +16,10 @@ public class CharacterSwitcher : MonoBehaviour
     [Header("Mana")]
     public int manaCost = 3;
 
+    [Header("Switch Safety")]
+    [Tooltip("Small upward offset to prevent the new form from spawning inside the floor.")]
+    public float switchGroundOffset = 0.03f;
+
     private PlayableCharacter[] characters;
     private int currentCharacterIndex = 0;
 
@@ -72,7 +76,7 @@ public class CharacterSwitcher : MonoBehaviour
             crow.gameObject.SetActive(false);
         }
 
-        // Make camera follow Autumn at the start
+        // Camera starts by following Autumn
         if (cameraFollow != null && autumn != null)
         {
             cameraFollow.SetTarget(autumn.transform);
@@ -124,16 +128,39 @@ public class CharacterSwitcher : MonoBehaviour
             }
         }
 
-        Vector3 currentPosition =
-            current.transform.position;
+        Rigidbody2D currentRb =
+            current.GetComponent<Rigidbody2D>();
 
-        int currentHp =
-            current.GetHp();
+        Collider2D currentCollider =
+            current.GetComponent<Collider2D>();
+
+        // Save current horizontal position
+        float currentX =
+            current.transform.position.x;
+
+        // Save where the player's feet currently are
+        float currentFeetY =
+            current.transform.position.y;
+
+        if (currentCollider != null)
+        {
+            currentFeetY =
+                currentCollider.bounds.min.y;
+        }
+
+        Vector2 currentVelocity =
+            Vector2.zero;
+
+        if (currentRb != null)
+        {
+            currentVelocity =
+                currentRb.linearVelocity;
+        }
 
         // Disable current form
         current.gameObject.SetActive(false);
 
-        // Go to next form
+        // Move to next character
         currentCharacterIndex++;
 
         if (currentCharacterIndex >= characters.Length)
@@ -154,35 +181,72 @@ public class CharacterSwitcher : MonoBehaviour
             return;
         }
 
-        // Preserve position
-        next.transform.position =
-            currentPosition;
+        // Enable new form first so Unity can calculate its collider bounds
+        next.gameObject.SetActive(true);
 
-        // Preserve HP
-        next.SetHp(currentHp);
+        Physics2D.SyncTransforms();
+
+        Collider2D nextCollider =
+            next.GetComponent<Collider2D>();
+
+        // Start at the same X position
+        next.transform.position =
+            new Vector3(
+                currentX,
+                current.transform.position.y,
+                current.transform.position.z
+            );
+
+        Physics2D.SyncTransforms();
+
+        // Align the new character's feet
+        // with the old character's feet
+        if (nextCollider != null)
+        {
+            float nextFeetY =
+                nextCollider.bounds.min.y;
+
+            float verticalDifference =
+                currentFeetY -
+                nextFeetY;
+
+            next.transform.position +=
+                new Vector3(
+                    0f,
+                    verticalDifference + switchGroundOffset,
+                    0f
+                );
+        }
+
+        Physics2D.SyncTransforms();
 
         Rigidbody2D nextRb =
             next.GetComponent<Rigidbody2D>();
 
         if (nextRb != null)
         {
+            // Keep horizontal movement,
+            // but don't force the new form down into the floor.
             nextRb.linearVelocity =
-                Vector2.zero;
+                new Vector2(
+                    currentVelocity.x,
+                    Mathf.Max(currentVelocity.y, 0f)
+                );
         }
-
-        // Enable new form
-        next.gameObject.SetActive(true);
 
         // Update camera target
         if (cameraFollow != null)
         {
-            cameraFollow.SetTarget(next.transform);
+            cameraFollow.SetTarget(
+                next.transform
+            );
         }
 
-        // Play shapeshifting SFX
+        // Play switching SFX
         if (AudioManager.Instance != null)
         {
-            AudioManager.Instance.PlaySwitchCharacter();
+            AudioManager.Instance
+                .PlaySwitchCharacter();
         }
 
         Debug.Log(
