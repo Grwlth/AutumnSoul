@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8995429471654532558}
   - component: {fileID: 1866971135477619772}
   - component: {fileID: 7344548470905739453}
+  - component: {fileID: -2900688133432380180}
   m_Layer: 0
   m_Name: Ingredient
   m_TagString: Untagged
@@ -141,3 +142,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d2fdf66289a04408cb83d2dcc0993a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IngredientCollectible
+--- !u!114 &-2900688133432380180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6775790126066763698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43eb81059a486644bad40888bdc7dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomIngredientSprite
+  ingredientSprites:
+  - {fileID: 5182299067807867188, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: 6128299156075563123, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: 3386662938922423588, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: -6110656803992641779, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: 8553092956536608252, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: 6708733205153277002, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: 6813553822765877458, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: -2423230811885516303, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  - {fileID: 1211998406744890917, guid: 272d8d1496156084d9c63caf84c1d2e1, type: 3}
+  randomizeOnAwake: 1

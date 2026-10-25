@@ -10,21 +10,33 @@ public abstract class Trap : MonoBehaviour, IDamagable
     [Header("Collectible Drop")]
     public GameObject collectiblePrefab;
 
-    protected virtual void Start()
+    [Tooltip("An ingredient already placed in the scene.")]
+    public GameObject sceneIngredient;
+
+    private bool destroyed = false;
+
+    protected virtual void Awake()
     {
         currentHp = maxHp;
+
+        // Hide the ingredient before the first frame
+        if (sceneIngredient != null)
+        {
+            sceneIngredient.SetActive(false);
+        }
     }
 
     public abstract void ApplyDamage(IDamagable damagable);
 
     public virtual void TakeDamage(int howMuch)
     {
+        if (destroyed)
+            return;
+
         currentHp -= howMuch;
 
         Debug.Log(
-            gameObject.name +
-            " HP: " +
-            currentHp
+            gameObject.name + " HP: " + currentHp
         );
 
         if (currentHp <= 0)
@@ -35,7 +47,18 @@ public abstract class Trap : MonoBehaviour, IDamagable
 
     public virtual void Die()
     {
-        if (collectiblePrefab != null)
+        if (destroyed)
+            return;
+
+        destroyed = true;
+
+        // Activate an ingredient already placed in the scene
+        if (sceneIngredient != null)
+        {
+            sceneIngredient.SetActive(true);
+        }
+        // Otherwise spawn a new ingredient prefab
+        else if (collectiblePrefab != null)
         {
             Instantiate(
                 collectiblePrefab,
@@ -47,7 +70,7 @@ public abstract class Trap : MonoBehaviour, IDamagable
         {
             Debug.LogWarning(
                 gameObject.name +
-                " has no collectible prefab assigned!"
+                " has no ingredient assigned!"
             );
         }
 

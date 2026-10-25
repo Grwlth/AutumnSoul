@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class HutGoal : MonoBehaviour
@@ -5,13 +6,20 @@ public class HutGoal : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayableCharacter player =
-            other.GetComponent<PlayableCharacter>();
+            other.GetComponentInParent<PlayableCharacter>();
 
         if (player == null)
             return;
 
         if (GameManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "[HUT GOAL] GameManager not found!"
+            );
             return;
+        }
+
+        Debug.Log("[HUT GOAL] Player entered hut.");
 
         if (GameManager.Instance.HasAllIngredients())
         {
@@ -20,7 +28,9 @@ public class HutGoal : MonoBehaviour
         else
         {
             Debug.Log(
-                "You still need to collect all ingredients!"
+                "[HUT GOAL] Missing ingredients: " +
+                (GameManager.Instance.totalIngredients -
+                 GameManager.Instance.collectedIngredients)
             );
         }
     }

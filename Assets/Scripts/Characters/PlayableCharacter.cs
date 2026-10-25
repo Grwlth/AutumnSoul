@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public abstract class PlayableCharacter :
@@ -33,6 +34,10 @@ public abstract class PlayableCharacter :
     [Header("Animation")]
     public Animator animator;
 
+    [Header("Debug")]
+    public bool debugGroundCheck = true;
+    public float debugRayDistance = 1.5f;
+
     protected Rigidbody2D rb;
 
     private float horizontalInput;
@@ -50,8 +55,7 @@ public abstract class PlayableCharacter :
 
         if (rb != null)
         {
-            normalGravityScale =
-                rb.gravityScale;
+            normalGravityScale = rb.gravityScale;
         }
 
         if (animator == null)
@@ -94,9 +98,6 @@ public abstract class PlayableCharacter :
 
     private void ReadMovementInput()
     {
-        // Supports:
-        // A / D
-        // Left Arrow / Right Arrow
         horizontalInput =
             Input.GetAxisRaw("Horizontal");
     }
@@ -129,29 +130,35 @@ public abstract class PlayableCharacter :
     {
         if (IsGrounded())
         {
-            coyoteTimeCounter =
-                coyoteTime;
+            coyoteTimeCounter = coyoteTime;
         }
         else
         {
-            coyoteTimeCounter -=
-                Time.deltaTime;
+            coyoteTimeCounter -= Time.deltaTime;
         }
 
         if (JumpButtonDown())
         {
-            jumpBufferCounter =
-                jumpBufferTime;
+            jumpBufferCounter = jumpBufferTime;
         }
         else
         {
-            jumpBufferCounter -=
-                Time.deltaTime;
+            jumpBufferCounter -= Time.deltaTime;
         }
     }
 
     private void HandleJumpInput()
     {
+        if (JumpButtonDown() && debugGroundCheck)
+        {
+            DebugGroundSurface();
+        }
+
+        if (rb == null)
+        {
+            return;
+        }
+
         if (jumpBufferCounter > 0f &&
             coyoteTimeCounter > 0f)
         {
@@ -161,8 +168,7 @@ public abstract class PlayableCharacter :
             coyoteTimeCounter = 0f;
         }
 
-        // Releasing any jump button early
-        // makes the jump shorter
+        // Releasing jump early makes it shorter
         if (JumpButtonUp() &&
             rb.linearVelocity.y > 0f)
         {
@@ -174,8 +180,120 @@ public abstract class PlayableCharacter :
         }
     }
 
+    private void DebugGroundSurface()
+    {
+        if (groundCheck == null)
+        {
+            Debug.LogWarning(
+                gameObject.name +
+                ": GroundCheck is missing!",
+                gameObject
+            );
+
+            return;
+        }
+
+        Collider2D[] nearbyColliders =
+            Physics2D.OverlapCircleAll(
+                groundCheck.position,
+                groundCheckRadius,
+                Physics2D.AllLayers
+            );
+
+        Collider2D playerCollider =
+            GetComponent<Collider2D>();
+
+        string nearbyInfo = "";
+
+        foreach (Collider2D col in nearbyColliders)
+        {
+            if (col == playerCollider ||
+                col.transform.IsChildOf(transform) ||
+                col.transform == transform)
+            {
+                continue;
+            }
+
+            bool included =
+                (groundLayer.value &
+                (1 << col.gameObject.layer)) != 0;
+
+            nearbyInfo +=
+                $"\n- {col.name}" +
+                $" | Layer: {LayerMask.LayerToName(col.gameObject.layer)}" +
+                $" | Ground Layer: {included}" +
+                $" | Trigger: {col.isTrigger}";
+        }
+
+        if (string.IsNullOrEmpty(nearbyInfo))
+        {
+            nearbyInfo = "\n- None";
+        }
+
+        Vector2 rayOrigin = groundCheck.position;
+
+        RaycastHit2D[] hits = Physics2D.RaycastAll(
+            rayOrigin,
+            Vector2.down,
+            debugRayDistance,
+            Physics2D.AllLayers
+        );
+
+        Collider2D surfaceCollider = null;
+
+        foreach (RaycastHit2D hit in hits)
+        {
+            if (hit.collider == null)
+                continue;
+
+            if (hit.collider == playerCollider ||
+                hit.collider.transform == transform ||
+                hit.collider.transform.IsChildOf(transform))
+            {
+                continue;
+            }
+
+            surfaceCollider = hit.collider;
+            break;
+        }
+
+        string surfaceInfo = "No surface detected";
+
+        if (surfaceCollider != null)
+        {
+            bool included =
+                (groundLayer.value &
+                (1 << surfaceCollider.gameObject.layer)) != 0;
+
+            surfaceInfo =
+                $"{surfaceCollider.name}" +
+                $" | Layer: {LayerMask.LayerToName(surfaceCollider.gameObject.layer)}" +
+                $" | Ground Layer: {included}" +
+                $" | Trigger: {surfaceCollider.isTrigger}";
+        }
+
+        Debug.Log(
+            $"CHARACTER: {gameObject.name}\n" +
+            $"Grounded: {IsGrounded()}\n" +
+            $"Coyote: {coyoteTimeCounter:F2}\n" +
+            $"VelocityY: {(rb != null ? rb.linearVelocity.y : 0f):F2}\n" +
+            $"GroundCheck Position: {groundCheck.position}\n" +
+            $"GroundCheck Radius: {groundCheckRadius}\n" +
+            $"Surface below: {surfaceInfo}\n" +
+            $"Colliders near GroundCheck: {nearbyInfo}",
+            surfaceCollider != null ?
+                (Object)surfaceCollider.gameObject :
+                gameObject
+        );
+    }
+
     public virtual void Movement()
     {
+        if (rb == null)
+        {
+            return;
+        }
+
         float targetSpeed =
             horizontalInput * speed;
 
@@ -183,21 +301,18 @@ public abstract class PlayableCharacter :
 
         if (Mathf.Abs(targetSpeed) > 0.01f)
         {
-            movementRate =
-                acceleration;
+            movementRate = acceleration;
         }
         else
         {
-            movementRate =
-                deceleration;
+            movementRate = deceleration;
         }
 
         float newXVelocity =
             Mathf.MoveTowards(
                 rb.linearVelocity.x,
                 targetSpeed,
-                movementRate *
-                Time.fixedDeltaTime
+                movementRate * Time.fixedDeltaTime
             );
 
         rb.linearVelocity =
@@ -209,6 +324,11 @@ public abstract class PlayableCharacter :
 
     public virtual void Jump()
     {
+        if (rb == null)
+        {
+            return;
+        }
+
         rb.linearVelocity =
             new Vector2(
                 rb.linearVelocity.x,
@@ -223,20 +343,18 @@ public abstract class PlayableCharacter :
 
     private void UpdateAnimations()
     {
-        if (animator == null)
+        if (animator == null || rb == null)
         {
             return;
         }
 
-        bool grounded =
-            IsGrounded();
+        bool grounded = IsGrounded();
 
         bool running =
             grounded &&
             Mathf.Abs(rb.linearVelocity.x) > 0.1f;
 
-        bool jumping =
-            !grounded;
+        bool jumping = !grounded;
 
         animator.SetBool(
             "isRunning",
@@ -294,6 +412,12 @@ public abstract class PlayableCharacter :
     {
         if (groundCheck == null)
         {
+            Debug.LogWarning(
+                gameObject.name +
+                ": GroundCheck is missing!",
+                gameObject
+            );
+
             return false;
         }
 
@@ -307,9 +431,30 @@ public abstract class PlayableCharacter :
         return groundHit != null;
     }
 
-    public virtual void TakeDamage(
-        int howMuch
-    )
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheck == null)
+        {
+            return;
+        }
+
+        Gizmos.color = Color.green;
+
+        Gizmos.DrawWireSphere(
+            groundCheck.position,
+            groundCheckRadius
+        );
+
+        Gizmos.color = Color.yellow;
+
+        Gizmos.DrawLine(
+            groundCheck.position,
+            groundCheck.position +
+            Vector3.down * debugRayDistance
+        );
+    }
+
+    public virtual void TakeDamage(int howMuch)
     {
         currentHp -= howMuch;
 
@@ -342,9 +487,7 @@ public abstract class PlayableCharacter :
             return;
         }
 
-        damagable.TakeDamage(
-            attackDamage
-        );
+        damagable.TakeDamage(attackDamage);
     }
 
     public void SetHp(int hp)
@@ -372,14 +515,11 @@ public abstract class PlayableCharacter :
         return rb.linearVelocity;
     }
 
-    public void SetVelocity(
-        Vector2 velocity
-    )
+    public void SetVelocity(Vector2 velocity)
     {
         if (rb != null)
         {
-            rb.linearVelocity =
-                velocity;
+            rb.linearVelocity = velocity;
         }
     }
 
