@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip switchCharacterSFX;
     public AudioClip attackSFX;
     public AudioClip ingredientSFX;
+    public AudioClip leafSFX;
     public AudioClip jumpSFX;
     public AudioClip winSFX;
     public AudioClip loseSFX;
@@ -38,7 +40,6 @@ public class AudioManager : MonoBehaviour
         else if (Instance != this)
         {
             Destroy(gameObject);
-            return;
         }
     }
 
@@ -97,10 +98,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        sfxSource.PlayOneShot(
-            clip,
-            sfxVolume
-        );
+        sfxSource.PlayOneShot(clip);
     }
 
     public void PlaySwitchCharacter()
@@ -116,6 +114,11 @@ public class AudioManager : MonoBehaviour
     public void PlayIngredient()
     {
         PlaySFX(ingredientSFX);
+    }
+
+    public void PlayLeaf()
+    {
+        PlaySFX(leafSFX);
     }
 
     public void PlayJump()
