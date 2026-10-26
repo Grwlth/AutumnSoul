@@ -955,6 +955,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scarecrow1_0 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6339135698569659393, guid: 8e01ece578ac7e949802ce44eddbdbd9, type: 3}
+      propertyPath: sceneIngredient
+      value: 
+      objectReference: {fileID: 5748804131511646129, guid: 33ede9e417c98a04d93d4837caac92dc, type: 3}
+    - target: {fileID: 6339135698569659393, guid: 8e01ece578ac7e949802ce44eddbdbd9, type: 3}
+      propertyPath: collectiblePrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7930447060711000058, guid: 8e01ece578ac7e949802ce44eddbdbd9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.43
@@ -8367,6 +8375,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4438269225432474636, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
+      propertyPath: sceneIngredient
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438269225432474636, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
+      propertyPath: collectiblePrefab
+      value: 
+      objectReference: {fileID: 6775790126066763698, guid: cca138b0c223cef47b37f13cb2770bda, type: 3}
     - target: {fileID: 5050472447318823444, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.44
@@ -8406,6 +8422,14 @@ PrefabInstance:
     - target: {fileID: 5050472447318823444, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289998423514958606, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1980581
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289998423514958606, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.04902911
       objectReference: {fileID: 0}
     - target: {fileID: 7337762733801151236, guid: 392443659aed1e3408a0180ac9ac73a6, type: 3}
       propertyPath: m_Name
@@ -8652,9 +8676,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2751952469184988876, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4210191
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751952469184988876, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18324056
+      objectReference: {fileID: 0}
     - target: {fileID: 3418938978898621893, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
       propertyPath: m_Name
       value: Pumpkin_Front Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121038428536244201, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9269
       objectReference: {fileID: 0}
     - target: {fileID: 6121038428536244201, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8662,7 +8698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6121038428536244201, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2624
+      value: -2.3423
       objectReference: {fileID: 0}
     - target: {fileID: 6121038428536244201, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8696,6 +8732,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8517957452675260887, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
+      propertyPath: sceneIngredient
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517957452675260887, guid: 1100b19aa2e51f54a942dd981860a7b2, type: 3}
+      propertyPath: collectiblePrefab
+      value: 
+      objectReference: {fileID: 6775790126066763698, guid: cca138b0c223cef47b37f13cb2770bda, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

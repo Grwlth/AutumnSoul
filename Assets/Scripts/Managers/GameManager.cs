@@ -51,13 +51,19 @@ public class GameManager : MonoBehaviour
         gameEnded = false;
 
         if (winPanel != null)
+        {
             winPanel.SetActive(false);
+        }
 
         if (losePanel != null)
+        {
             losePanel.SetActive(false);
+        }
 
         if (outOfManaPanel != null)
+        {
             outOfManaPanel.SetActive(false);
+        }
 
         UpdateUI();
 
@@ -74,94 +80,36 @@ public class GameManager : MonoBehaviour
 
     private void CountRequiredIngredients()
     {
-        totalIngredients = 0;
-
-        // Ingredients already placed in the scene,
-        // including inactive ingredients.
         IngredientCollectible[] sceneIngredients =
             FindObjectsByType<IngredientCollectible>(
                 FindObjectsInactive.Include,
                 FindObjectsSortMode.None
             );
 
-        int existingCount = sceneIngredients.Length;
-        totalIngredients += existingCount;
-
-        // Random spawn points without a scene ingredient.
-        TrapSpawner[] spawners =
-            FindObjectsByType<TrapSpawner>(
-                FindObjectsInactive.Exclude,
-                FindObjectsSortMode.None
-            );
-
-        int randomDropCount = 0;
-
-        foreach (TrapSpawner spawner in spawners)
-        {
-            if (!spawner.isActiveAndEnabled)
-                continue;
-
-            if (spawner.sceneIngredient != null)
-                continue;
-
-            if (spawner.trapPrefabs == null ||
-                spawner.trapPrefabs.Length == 0)
-                continue;
-
-            bool hasValidPrefab = false;
-
-            foreach (GameObject prefab in spawner.trapPrefabs)
-            {
-                if (prefab != null &&
-                    prefab.GetComponent<Trap>() != null)
-                {
-                    hasValidPrefab = true;
-                    break;
-                }
-            }
-
-            if (hasValidPrefab)
-                randomDropCount++;
-        }
-
-        totalIngredients += randomDropCount;
-
-        // Manually placed traps that spawn a new ingredient.
-        Trap[] sceneTraps =
-            FindObjectsByType<Trap>(
-                FindObjectsInactive.Exclude,
-                FindObjectsSortMode.None
-            );
-
-        int manualDropCount = 0;
-
-        foreach (Trap trap in sceneTraps)
-        {
-            if (!trap.isActiveAndEnabled)
-                continue;
-
-            if (trap.sceneIngredient == null &&
-                trap.collectiblePrefab != null)
-            {
-                manualDropCount++;
-            }
-        }
-
-        totalIngredients += manualDropCount;
+        totalIngredients = sceneIngredients.Length;
 
         Debug.Log(
             "[INGREDIENT COUNT]\n" +
-            "Scene Ingredients: " + existingCount + "\n" +
-            "Random Spawn Drops: " + randomDropCount + "\n" +
-            "Manual Trap Drops: " + manualDropCount + "\n" +
-            "TOTAL: " + totalIngredients
+            "Scene Ingredients: " + totalIngredients + "\n" +
+            "TOTAL REQUIRED: " + totalIngredients
         );
+
+        if (totalIngredients != 10)
+        {
+            Debug.LogWarning(
+                "[INGREDIENT COUNT] Expected 10 ingredients, " +
+                "but found " + totalIngredients +
+                ". Check Ingredients_All!"
+            );
+        }
     }
 
     public bool TrySpendMana(int amount)
     {
         if (gameEnded)
+        {
             return false;
+        }
 
         if (currentMana < amount)
         {
@@ -186,26 +134,36 @@ public class GameManager : MonoBehaviour
     private void CheckOutOfMana(int shapeshiftCost)
     {
         if (HasAllIngredients())
+        {
             return;
+        }
 
         if (currentMana < shapeshiftCost)
+        {
             OutOfMana();
+        }
     }
 
     public void OutOfMana()
     {
         if (gameEnded)
+        {
             return;
+        }
 
         gameEnded = true;
 
         Debug.Log("OUT OF MANA!");
 
         if (outOfManaPanel != null)
+        {
             outOfManaPanel.SetActive(true);
+        }
 
         if (AudioManager.Instance != null)
+        {
             AudioManager.Instance.PlayLose();
+        }
 
         Time.timeScale = 0f;
     }
@@ -213,7 +171,9 @@ public class GameManager : MonoBehaviour
     public void AddMana(int amount)
     {
         if (gameEnded)
+        {
             return;
+        }
 
         currentMana += amount;
         currentMana = Mathf.Min(currentMana, maxMana);
@@ -229,12 +189,16 @@ public class GameManager : MonoBehaviour
     public void CollectIngredient()
     {
         if (gameEnded)
+        {
             return;
+        }
 
         collectedIngredients++;
 
         if (collectedIngredients > totalIngredients)
+        {
             collectedIngredients = totalIngredients;
+        }
 
         UpdateUI();
 
@@ -283,7 +247,9 @@ public class GameManager : MonoBehaviour
     public void WinGame()
     {
         if (gameEnded)
+        {
             return;
+        }
 
         gameEnded = true;
 
@@ -307,10 +273,14 @@ public class GameManager : MonoBehaviour
         );
 
         if (winPanel != null)
+        {
             winPanel.SetActive(true);
+        }
 
         if (AudioManager.Instance != null)
+        {
             AudioManager.Instance.PlayWin();
+        }
 
         Time.timeScale = 0f;
     }
@@ -318,17 +288,23 @@ public class GameManager : MonoBehaviour
     public void PlayerDied()
     {
         if (gameEnded)
+        {
             return;
+        }
 
         gameEnded = true;
 
         Debug.Log("GAME OVER!");
 
         if (losePanel != null)
+        {
             losePanel.SetActive(true);
+        }
 
         if (AudioManager.Instance != null)
+        {
             AudioManager.Instance.PlayLose();
+        }
 
         Time.timeScale = 0f;
     }

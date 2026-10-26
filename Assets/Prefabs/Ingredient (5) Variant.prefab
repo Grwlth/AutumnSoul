@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ingredient (5) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6775790126066763698, guid: cca138b0c223cef47b37f13cb2770bda, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8995429471654532558, guid: cca138b0c223cef47b37f13cb2770bda, type: 3}
       propertyPath: m_Sprite
       value: 
