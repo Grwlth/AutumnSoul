@@ -45,6 +45,9 @@ TagManager:
   - name: Middleground
     uniqueID: 2447500537
     locked: 0
+  - name: Interact
+    uniqueID: 3620179413
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
